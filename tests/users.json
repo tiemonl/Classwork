@@ -1,0 +1,16 @@
+{
+  "liam": {
+    "active": true, 
+    "authentication_method": "hash", 
+    "authenticated": false, 
+    "roles": [], 
+    "hash": "3d57f598462a3361194af232c16ca1255979bf1494fcf1e3780b35224deb6323af7db65ee38fe4fde7b925594cd19150329bb348010c9314e70a9871d729b094df117139777bd560cc6368e36894cbc0c50a8360c1d61cad3df1d8f59078c368283729d7d0937baab1b2b3dfc99d76338c184e3255a0c3636ec9401fa745e6c8"
+  }, 
+  "Ryan": {
+    "active": true, 
+    "authentication_method": "hash", 
+    "authenticated": false, 
+    "hash": "13f3d5e1d9a47557b36be776cde922d876ebf1886fde9282db4ab930e975b597e7aa40c0fbc23e7af00c0e79d40b8193b008c8ba8e1ec0088359c825bd8cb8de83d45960c487991fa49f848dc086b72753f68b820a57b68a2e09bdadd9c634ea3501353d9fe308af932db873a2ef7620d9b010aacd0f21497ea325def6ffcc42", 
+    "roles": []
+  }
+}
