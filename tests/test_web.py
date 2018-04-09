@@ -16,7 +16,12 @@ class WebContentTestCase(WikiBaseTestCase):
         assert rsp.status_code == 200
 
 
-TestFilePath = '/Users/liamtiemon/PycharmProjects/Riki/tests'
+'''
+Tests below are Unit tests created for stage C to get these tests to run you must make the Test File Path accurate.
+This class tests the UserManager Class's functions
+'''
+
+TestFilePath = '/Users/Ryan Guard/PycharmProjects/Riki/tests/'
 
 
 class TestUserManager(WebContentTestCase):
@@ -38,9 +43,14 @@ class TestUserManager(WebContentTestCase):
 
     def test_delete_user(self):
         m = UserManager(TestFilePath)
-        m.add_user('ronnie', 'password', authentication_method='hash')
-        self.assertTrue(m.delete_user('ronnie'))
+        m.add_user('Ronnie', 'password', authentication_method='hash')
+        self.assertTrue(m.delete_user('Ronnie'))
 
     def test_invalid_authentication_method(self):
         m = UserManager(TestFilePath)
         self.assertRaises(NotImplementedError, m.add_user, m, 'Elizabeth', 12345, authentication_method='this will cause an error')
+
+    def tearDown(self):
+        super(TestUserManager, self).tearDown()
+        m = UserManager(TestFilePath)
+        m.delete_user('Ryan')
