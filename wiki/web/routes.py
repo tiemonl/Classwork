@@ -35,6 +35,15 @@ def home():
     return render_template('home.html')
 
 
+@bp.route('/history/', methods=['GET', 'POST'])
+@protect
+def history():
+    # form = SearchForm()
+    # if form.validate_on_submit():
+        results = current_wiki.searchHistory()
+        return render_template('history.html', results=results)
+    # return render_template('history.html', form=form, search=None)
+
 @bp.route('/index/')
 @protect
 def index():

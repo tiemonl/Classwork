@@ -375,3 +375,12 @@ class Wiki(object):
                     matched.append(page)
                     break
         return matched
+
+    #This is where code needs to be changed
+    def searchHistory(self):
+        from wiki.web.ArchiveDatabaseConnection import ArchiveDatabaseConnection
+        cursor = ArchiveDatabaseConnection().conn.cursor()
+        cursor.execute("Select DISTINCT(file_name) from wiki.pages")
+        matched = cursor.fetchall()
+
+        return matched

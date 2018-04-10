@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title -%}
+	History
+{% endblock title %}
+
+{% block content %}
+
+	{% if results %}
+		<ul>
+            <div id="accordion">
+			{% for result in results %}
+
+                  <div class="card">
+                    <div class="card-header" id="heading{{ result.title }}">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse{{ result.title }}" aria-expanded="true" aria-controls="collapse{{ result.title }}">
+                         {{ result }}
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div id="collapse{{ result.title }}" class="collapse show" aria-labelledby="heading{{ result.title }}" data-parent="#accordion">
+                      <div class="card-body" style="padding-left:30px;">
+                        {{ result }} and some more
+                      </div>
+                    </div>
+                  </div>
+			{% endfor %}
+            </div>
+		</ul>
+	{% else %}
+		<p>No results for your search.</p>
+	{% endif %}
+
+{% endblock content %}
