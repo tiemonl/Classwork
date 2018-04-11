@@ -197,6 +197,11 @@ class Page(object):
         if update:
             self.load()
             self.render()
+        from wiki.web.ArchivePage import ArchivePage
+        archive = ArchivePage(self.url, self.path)
+        archive.store()
+
+
 
     @property
     def meta(self):
