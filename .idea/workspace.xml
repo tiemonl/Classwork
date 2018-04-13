@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/wiki/web/ArchivePage.py" line="25" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7ead5b3-ffe0-4812-80ee-684c99e134b3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/wiki/core.py" afterPath="$PROJECT_DIR$/wiki/core.py" />
-    </list>
+    <list default="true" id="d7ead5b3-ffe0-4812-80ee-684c99e134b3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +42,8 @@
       <file leaf-file-name="core.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wiki/core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="386" column="0" lean-forward="true" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="381" column="20" lean-forward="true" selection-start-line="381" selection-start-column="20" selection-end-line="381" selection-end-column="20" />
               <folding>
                 <element signature="e#36#71#0" expanded="true" />
                 <marker date="1523644176170" expanded="true" signature="11163:11205" ph="Select DISTI... pages" />
@@ -786,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wiki/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="386" column="0" lean-forward="true" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="381" column="20" lean-forward="true" selection-start-line="381" selection-start-column="20" selection-end-line="381" selection-end-column="20" />
           <folding>
             <element signature="e#36#71#0" expanded="true" />
             <marker date="1523644176170" expanded="true" signature="11163:11205" ph="Select DISTI... pages" />
