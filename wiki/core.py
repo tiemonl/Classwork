@@ -380,7 +380,7 @@ class Wiki(object):
     def searchHistory(self):
         from wiki.web.ArchiveDatabaseConnection import ArchiveDatabaseConnection
         cursor = ArchiveDatabaseConnection().conn.cursor()
-        cursor.execute("Select DISTINCT(file_name) from wiki.pages")
+        cursor.execute("Select DISTINCT(page_name) from wiki.pages")
         matched = cursor.fetchall()
 
         return matched
