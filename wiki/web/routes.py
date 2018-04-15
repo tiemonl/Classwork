@@ -17,6 +17,7 @@ from wiki.core import Processor
 from wiki.web.forms import EditorForm
 from wiki.web.forms import LoginForm
 from wiki.web.forms import SearchForm
+from wiki.web.forms import HistoryForm
 from wiki.web.forms import URLForm
 from wiki.web import current_wiki
 from wiki.web import current_users
@@ -35,14 +36,13 @@ def home():
     return render_template('home.html')
 
 
-@bp.route('/history/', methods=['GET', 'POST'])
+@bp.route('/history/', methods=['GET','POST'])
 @protect
 def history():
-    # form = SearchForm()
-    # if form.validate_on_submit():
-        results = current_wiki.searchHistory()
-        return render_template('history.html', results=results)
-    # return render_template('history.html', form=form, search=None)
+    results = current_wiki.searchHistory()
+    if request.method == 'POST':
+         print request.form['opt'] #return is page name and version number, separated by a comma
+    return render_template('history.html', results=results)
 
 @bp.route('/index/')
 @protect
@@ -131,6 +131,7 @@ def tag(name):
 @protect
 def search():
     form = SearchForm()
+    print("now here")
     if form.validate_on_submit():
         results = current_wiki.search(form.term.data, form.ignore_case.data)
         return render_template('search.html', form=form,

@@ -3,7 +3,7 @@
     ~~~~~
 """
 from flask_wtf import Form
-from wtforms import BooleanField
+from wtforms import BooleanField, RadioField
 from wtforms import TextField
 from wtforms import TextAreaField
 from wtforms import PasswordField

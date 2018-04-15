@@ -381,11 +381,19 @@ class Wiki(object):
                     break
         return matched
 
-    #This is where code needs to be changed
     def searchHistory(self):
         from wiki.web.ArchiveDatabaseConnection import ArchiveDatabaseConnection
         cursor = ArchiveDatabaseConnection().conn.cursor()
-        cursor.execute("Select DISTINCT(page_name) from wiki.pages")
-        matched = cursor.fetchall()
+        cursor.execute("Select DISTINCT(page_name) from wiki.page ORDER BY page_name")
+        page_names = cursor.fetchall()
+        cursor.execute("Select commit_id, page_name from wiki.page ORDER BY commit_id DESC")
+        inner = cursor.fetchall()
 
-        return matched
+        page_dict = {}
+        for pg in page_names:
+            page_dict[pg[0]] = []
+
+        for pg in inner:
+            page_dict[pg[1]].append(pg[0])
+
+        return page_dict
