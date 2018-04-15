@@ -26,7 +26,6 @@ from wiki.web.user import protect
 
 bp = Blueprint('wiki', __name__)
 
-
 @bp.route('/')
 @protect
 def home():

@@ -5,11 +5,8 @@
     <list default="true" id="d7ead5b3-ffe0-4812-80ee-684c99e134b3" name="Default" comment="" />
 =======
     <list default="true" id="d7ead5b3-ffe0-4812-80ee-684c99e134b3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Riki.iml" afterPath="$PROJECT_DIR$/.idea/Riki.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
-      <change beforePath="$PROJECT_DIR$/wiki/web/ArchivePage.py" afterPath="$PROJECT_DIR$/wiki/web/ArchivePage.py" />
+      <change beforePath="$PROJECT_DIR$/wiki/web/RestorePage.py" afterPath="$PROJECT_DIR$/wiki/web/RestorePage.py" />
     </list>
 >>>>>>> refs/remotes/origin/master
     <ignored path="$PROJECT_DIR$/venv/" />
@@ -21,6 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <SUITE FILE_PATH="coverage/CSC440WikiWiki$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1523644411731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSC440WikiWiki$Unnamed__1_.coverage" NAME="Unnamed (1) Coverage Results" MODIFIED="1523318487570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wiki/web" />
@@ -51,19 +49,34 @@
       </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wiki/web/__init__.py">
+=======
+    <SUITE FILE_PATH="coverage/CSC440WikiWiki$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1523644935879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CSC440WikiWiki$Unnamed__2_.coverage" NAME="Unnamed (2) Coverage Results" MODIFIED="1523651544110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wiki/web" />
+    <SUITE FILE_PATH="coverage/CSC440WikiWiki$Unnamed__1_.coverage" NAME="Unnamed (1) Coverage Results" MODIFIED="1523650114142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wiki/web" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+>>>>>>> refs/remotes/origin/master
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
             <state relative-caret-position="0">
               <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
 =======
             <state relative-caret-position="102">
+<<<<<<< HEAD
               <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="63" />
+>>>>>>> refs/remotes/origin/master
+=======
+              <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="63" />
 >>>>>>> refs/remotes/origin/master
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="core.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wiki/core.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,11 +96,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+      <file leaf-file-name="core.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wiki/core.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+>>>>>>> refs/remotes/origin/master
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wiki/web/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,18 +122,32 @@
               <caret line="200" column="40" lean-forward="false" selection-start-line="200" selection-start-column="40" selection-end-line="200" selection-end-column="40" />
 >>>>>>> refs/remotes/origin/master
               <folding />
+=======
+      <file leaf-file-name="routes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wiki/web/routes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2895">
+              <caret line="205" column="13" lean-forward="false" selection-start-line="205" selection-start-column="13" selection-end-line="205" selection-end-column="13" />
+              <folding>
+                <marker date="1523644624531" expanded="true" signature="5199:5653" ph="..." />
+              </folding>
+>>>>>>> refs/remotes/origin/master
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki/web/routes.py">
+      <file leaf-file-name="users.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/users.json">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="205">
               <caret line="145" column="13" lean-forward="false" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
 =======
             <state relative-caret-position="782">
+=======
+            <state relative-caret-position="690">
+>>>>>>> refs/remotes/origin/master
               <caret line="64" column="21" lean-forward="false" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
 >>>>>>> refs/remotes/origin/master
               <folding>
@@ -140,8 +175,23 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wiki/web/forms.py">
+=======
+      <file leaf-file-name="user.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wiki/web/user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-816">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cli.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wiki/cli.py">
+>>>>>>> refs/remotes/origin/master
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="326">
               <caret line="49" column="66" lean-forward="true" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
@@ -151,6 +201,7 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="user.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wiki/web/user.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -159,36 +210,41 @@
               <folding />
 =======
       <file leaf-file-name="ArchivePage.py" pinned="false" current-in-tab="true">
+=======
+      <file leaf-file-name="ArchivePage.py" pinned="false" current-in-tab="false">
+>>>>>>> refs/remotes/origin/master
         <entry file="file://$PROJECT_DIR$/wiki/web/ArchivePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="443">
+              <caret line="40" column="84" lean-forward="false" selection-start-line="40" selection-start-column="84" selection-end-line="40" selection-end-column="84" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <marker date="1523409374180" expanded="true" signature="537:568" ph="Select file_... pages" />
-                <marker date="1523409374180" expanded="true" signature="537:586" ph="Select page_... page" />
-                <marker date="1523409374180" expanded="true" signature="537:588" ph="Select page_... page" />
-                <marker date="1523409374180" expanded="true" signature="537:610" ph="Select page_... page" />
-                <marker date="1523409374180" expanded="true" signature="690:926" ph="INSERT INTO wiki.page... " />
-                <marker date="1523409374180" expanded="true" signature="690:946" ph="INSERT INTO wiki.page... " />
-                <marker date="1523409374180" expanded="true" signature="690:1070" ph="INSERT INTO wiki.page... " />
-                <marker date="1523409374180" expanded="true" signature="690:1073" ph="INSERT INTO wiki.page... " />
-                <marker date="1523409374180" expanded="true" signature="690:1127" ph="INSERT INTO wiki.page... " />
-                <marker date="1523409374180" expanded="true" signature="690:1147" ph="INSERT INTO wiki.page... " />
-                <marker date="1523409374180" expanded="true" signature="690:1149" ph="INSERT INTO wiki.page... " />
-                <marker date="1523409374180" expanded="true" signature="690:1150" ph="INSERT INTO wiki.page... " />
-                <marker date="1523409374180" expanded="true" signature="690:1152" ph="INSERT INTO wiki.page... " />
-                <marker date="1523409374180" expanded="true" signature="807:885" ph="SELECT page_... page" />
-                <marker date="1523409374180" expanded="true" signature="807:887" ph="SELECT page_... page" />
-                <marker date="1523409374180" expanded="true" signature="951:1070" ph="SELECT (coun... page" />
-                <marker date="1523409374180" expanded="true" signature="1243:1316" ph="INSERT INTO wiki.page... " />
-                <marker date="1523409374180" expanded="true" signature="1243:1411" ph="INSERT INTO wiki.page... " />
+                <marker date="1523649421211" expanded="true" signature="537:610" ph="Select page_... page" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestorePage.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wiki/web/RestorePage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+                <marker date="1523651544092" expanded="true" signature="589:637" ph="SELECT page_... page" />
+                <marker date="1523651544092" expanded="true" signature="589:638" ph="SELECT page_... page" />
+                <marker date="1523651544092" expanded="true" signature="589:666" ph="SELECT page_... page" />
+                <marker date="1523651544092" expanded="true" signature="589:676" ph="SELECT page_... page" />
+                <marker date="1523651544092" expanded="true" signature="589:1027" ph="SELECT page_... page" />
+                <marker date="1523651544092" expanded="true" signature="1178:1235" ph="SELECT page_... page" />
               </folding>
 >>>>>>> refs/remotes/origin/master
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="ArchivePage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wiki/web/ArchivePage.py">
@@ -202,19 +258,23 @@
 =======
       <file leaf-file-name="editor.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wiki/web/templates/editor.html">
+=======
+      <file leaf-file-name="test_web.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_web.py">
+>>>>>>> refs/remotes/origin/master
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="60" lean-forward="false" selection-start-line="63" selection-start-column="60" selection-end-line="63" selection-end-column="60" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki/web/__init__.py">
+      <file leaf-file-name="home.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/home.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
               <folding />
 >>>>>>> refs/remotes/origin/master
             </state>
@@ -261,8 +321,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wiki/web/__init__.py" />
         <option value="$PROJECT_DIR$/wiki/web/WikiPageListener.py" />
+<<<<<<< HEAD
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/wiki/web/Archive.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
@@ -271,16 +331,27 @@
         <option value="$PROJECT_DIR$/wiki/web/templates/base.html" />
 =======
         <option value="$PROJECT_DIR$/wiki/web/routes.py" />
+=======
+>>>>>>> refs/remotes/origin/master
         <option value="$PROJECT_DIR$/wiki/web/Archive.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/wiki/web/ArchiveDatabaseConnection.py" />
-        <option value="$PROJECT_DIR$/wiki/core.py" />
         <option value="$PROJECT_DIR$/config.py" />
+<<<<<<< HEAD
 >>>>>>> refs/remotes/origin/master
         <option value="$PROJECT_DIR$/wiki/web/ArchivePage.py" />
         <option value="$PROJECT_DIR$/wiki/web/templates/history.html" />
         <option value="$PROJECT_DIR$/wiki/web/routes.py" />
         <option value="$PROJECT_DIR$/wiki/core.py" />
+=======
+        <option value="$PROJECT_DIR$/wiki/core.py" />
+        <option value="$PROJECT_DIR$/wiki/web/username.py" />
+        <option value="$PROJECT_DIR$/wiki/web/routes.py" />
+        <option value="$PROJECT_DIR$/wiki/web/__init__.py" />
+        <option value="$PROJECT_DIR$/wiki/web/templates/RestorePage.py" />
+        <option value="$PROJECT_DIR$/wiki/web/ArchivePage.py" />
+        <option value="$PROJECT_DIR$/wiki/web/RestorePage.py" />
+>>>>>>> refs/remotes/origin/master
       </list>
     </option>
   </component>
@@ -292,6 +363,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="x" value="198" />
     <option name="y" value="18" />
     <option name="width" value="697" />
@@ -301,6 +373,12 @@
     <option name="y" value="2" />
     <option name="width" value="1294" />
     <option name="height" value="1045" />
+>>>>>>> refs/remotes/origin/master
+=======
+    <option name="x" value="532" />
+    <option name="y" value="22" />
+    <option name="width" value="1295" />
+    <option name="height" value="878" />
 >>>>>>> refs/remotes/origin/master
   </component>
   <component name="ProjectView">
@@ -318,6 +396,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,7 +408,15 @@
               <item name="CSC440WikiWiki" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSC440WikiWiki" type="462c0819:PsiDirectoryNode" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSC440WikiWiki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSC440WikiWiki" type="462c0819:PsiDirectoryNode" />
+>>>>>>> refs/remotes/origin/master
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -360,7 +447,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -371,7 +457,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
 =======
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+>>>>>>> refs/remotes/origin/master
+=======
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wiki/web" />
+    </key>
 >>>>>>> refs/remotes/origin/master
   </component>
   <component name="RunDashboard">
@@ -386,14 +481,22 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.Unnamed">
+=======
+  <component name="RunManager" selected="Python.Unnamed (2)">
+>>>>>>> refs/remotes/origin/master
     <configuration name="Unnamed (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
+<<<<<<< HEAD
       <option name="SDK_HOME" value="C:\Users\Elizabeth\PycharmProjects\Riki\venv\Scripts\python.exe" />
+=======
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../Riki/venv/bin/python" />
+>>>>>>> refs/remotes/origin/master
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wiki/web" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -406,13 +509,36 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Unnamed (2)" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../Riki/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wiki/web" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Riki" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wiki/web/RestorePage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
+<<<<<<< HEAD
       <option name="SDK_HOME" value="C:\Users\Elizabeth\PycharmProjects\Riki\venv\Scripts\python.exe" />
+=======
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../Riki/venv/bin/python" />
+>>>>>>> refs/remotes/origin/master
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -425,9 +551,10 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Python.Unnamed (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Unnamed (2)" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -447,7 +574,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+=======
+    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
+    <editor active="true" />
+>>>>>>> refs/remotes/origin/master
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -463,22 +595,26 @@
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="7.564296E-4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
 =======
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33205816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3320562" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976282" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
 >>>>>>> refs/remotes/origin/master
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974457" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> refs/remotes/origin/master
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976282" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976282" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
@@ -491,11 +627,23 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+<<<<<<< HEAD
       <option name="time" value="7" />
+=======
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wiki/web/RestorePage.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+>>>>>>> refs/remotes/origin/master
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/requirements.txt">
 =======
@@ -507,12 +655,13 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> refs/remotes/origin/master
     <entry file="file://$PROJECT_DIR$/wiki/web/templates/editor.html">
 >>>>>>> refs/remotes/origin/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
           <caret line="63" column="60" lean-forward="false" selection-start-line="63" selection-start-column="60" selection-end-line="63" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,24 +679,7 @@
           <caret line="30" column="94" lean-forward="false" selection-start-line="30" selection-start-column="94" selection-end-line="30" selection-end-column="94" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <marker date="1523409374180" expanded="true" signature="537:568" ph="Select file_... pages" />
-            <marker date="1523409374180" expanded="true" signature="537:586" ph="Select page_... page" />
-            <marker date="1523409374180" expanded="true" signature="537:588" ph="Select page_... page" />
-            <marker date="1523409374180" expanded="true" signature="537:610" ph="Select page_... page" />
-            <marker date="1523409374180" expanded="true" signature="690:926" ph="INSERT INTO wiki.page... " />
-            <marker date="1523409374180" expanded="true" signature="690:946" ph="INSERT INTO wiki.page... " />
-            <marker date="1523409374180" expanded="true" signature="690:1070" ph="INSERT INTO wiki.page... " />
-            <marker date="1523409374180" expanded="true" signature="690:1073" ph="INSERT INTO wiki.page... " />
-            <marker date="1523409374180" expanded="true" signature="690:1127" ph="INSERT INTO wiki.page... " />
-            <marker date="1523409374180" expanded="true" signature="690:1147" ph="INSERT INTO wiki.page... " />
-            <marker date="1523409374180" expanded="true" signature="690:1149" ph="INSERT INTO wiki.page... " />
-            <marker date="1523409374180" expanded="true" signature="690:1150" ph="INSERT INTO wiki.page... " />
-            <marker date="1523409374180" expanded="true" signature="690:1152" ph="INSERT INTO wiki.page... " />
-            <marker date="1523409374180" expanded="true" signature="807:885" ph="SELECT page_... page" />
-            <marker date="1523409374180" expanded="true" signature="807:887" ph="SELECT page_... page" />
-            <marker date="1523409374180" expanded="true" signature="951:1070" ph="SELECT (coun... page" />
-            <marker date="1523409374180" expanded="true" signature="1243:1316" ph="INSERT INTO wiki.page... " />
-            <marker date="1523409374180" expanded="true" signature="1243:1411" ph="INSERT INTO wiki.page... " />
+            <marker date="1523649421211" expanded="true" signature="537:610" ph="Select page_... page" />
           </folding>
         </state>
       </provider>
@@ -571,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -591,7 +722,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3978">
           <caret line="241" column="23" lean-forward="false" selection-start-line="241" selection-start-column="23" selection-end-line="241" selection-end-column="23" />
-          <folding />
+          <folding>
+            <marker date="1523644624531" expanded="true" signature="5199:5653" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -644,10 +777,14 @@
 =======
         <state relative-caret-position="782">
           <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="31" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#30#57#0" expanded="true" />
 >>>>>>> refs/remotes/origin/master
           </folding>
+=======
+          <folding />
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
@@ -672,6 +809,7 @@
           <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+<<<<<<< HEAD
             <marker date="1523409374180" expanded="true" signature="537:568" ph="Select file_... pages" />
             <marker date="1523409374180" expanded="true" signature="537:586" ph="Select page_... page" />
             <marker date="1523409374180" expanded="true" signature="537:588" ph="Select page_... page" />
@@ -690,6 +828,9 @@
             <marker date="1523409374180" expanded="true" signature="951:1070" ph="SELECT (coun... page" />
             <marker date="1523409374180" expanded="true" signature="1243:1316" ph="INSERT INTO wiki.page... " />
             <marker date="1523409374180" expanded="true" signature="1243:1411" ph="INSERT INTO wiki.page... " />
+>>>>>>> refs/remotes/origin/master
+=======
+            <marker date="1523649421211" expanded="true" signature="537:610" ph="Select page_... page" />
 >>>>>>> refs/remotes/origin/master
           </folding>
         </state>
@@ -760,7 +901,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1523644624531" expanded="true" signature="5199:5653" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -796,6 +939,10 @@
 >>>>>>> refs/remotes/origin/master
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
@@ -855,13 +1002,6 @@
     <entry file="file://$PROJECT_DIR$/wiki/web/templates/helpers.html">
 =======
     <entry file="file://$PROJECT_DIR$/wiki/web/WikiPageListener.py" />
-    <entry file="file://$PROJECT_DIR$/user/users.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -876,24 +1016,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wiki/web/WikiPageListener.py" />
-    <entry file="file://$PROJECT_DIR$/wiki/web/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#62#71#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wiki/web/templates/index.html">
 >>>>>>> refs/remotes/origin/master
       <provider selected="true" editor-type-id="text-editor">
@@ -917,8 +1040,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-603">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
 >>>>>>> refs/remotes/origin/master
           <folding />
+=======
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
@@ -977,12 +1103,12 @@
 =======
         <state relative-caret-position="389">
           <caret line="36" column="6" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/Riki/venv/Lib/site-packages/werkzeug/local.py" />
-    <entry file="file://$USER_HOME$/PycharmProjects/Riki/venv/Lib/site-packages/flask/globals.py" />
-    <entry file="file://$PROJECT_DIR$/content/home.md" />
+    <entry file="file://$PROJECT_DIR$/../Riki/venv/Lib/site-packages/werkzeug/local.py" />
+    <entry file="file://$PROJECT_DIR$/../Riki/venv/Lib/site-packages/flask/globals.py" />
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -990,6 +1116,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wiki/web/ArchiveDatabaseConnection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1005,12 +1132,17 @@
         <state relative-caret-position="493">
           <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
 =======
+=======
+>>>>>>> refs/remotes/origin/master
     <entry file="file://$PROJECT_DIR$/Riki.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="75">
           <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+<<<<<<< HEAD
 >>>>>>> refs/remotes/origin/master
           <folding />
+=======
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
@@ -1022,26 +1154,34 @@
 =======
     <entry file="file://$PROJECT_DIR$/wiki/web/templates/editor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
+        <state relative-caret-position="945">
           <caret line="63" column="60" lean-forward="false" selection-start-line="63" selection-start-column="60" selection-end-line="63" selection-end-column="60" />
+<<<<<<< HEAD
 >>>>>>> refs/remotes/origin/master
           <folding />
+=======
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wiki/web/__init__.py">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
 =======
         <state relative-caret-position="136">
+=======
+        <state relative-caret-position="120">
+>>>>>>> refs/remotes/origin/master
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
 >>>>>>> refs/remotes/origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="uml://Python/#C:/Users/Elizabeth/PycharmProjects/CSC440WikiWiki/wiki/web/user.py">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -1115,6 +1255,9 @@
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
 =======
     <entry file="file://$PROJECT_DIR$/wiki/__init__.py">
+=======
+    <entry file="file://$PROJECT_DIR$/wiki/cli.py">
+>>>>>>> refs/remotes/origin/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1124,12 +1267,32 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wiki/web/templates/history.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
 =======
     <entry file="file://$PROJECT_DIR$/wiki/cli.py">
+=======
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki/web/username.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki/__init__.py">
+>>>>>>> refs/remotes/origin/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1138,6 +1301,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/user/users.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -1146,16 +1310,20 @@
           <folding />
 =======
     <entry file="file://$PROJECT_DIR$/wiki/web/routes.py">
+=======
+    <entry file="file://$PROJECT_DIR$/wiki/web/__init__.py">
+>>>>>>> refs/remotes/origin/master
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
+        <state relative-caret-position="690">
           <caret line="64" column="21" lean-forward="false" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
           <folding>
-            <element signature="e#30#57#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
 >>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wiki/web/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -1174,10 +1342,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="49" column="66" lean-forward="true" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
+=======
+    <entry file="file://$PROJECT_DIR$/user/users.json">
+    <entry file="file://$PROJECT_DIR$/wiki/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2895">
+          <caret line="205" column="13" lean-forward="false" selection-start-line="205" selection-start-column="13" selection-end-line="205" selection-end-column="13" />
+          <folding>
+            <marker date="1523644624531" expanded="true" signature="5199:5653" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> refs/remotes/origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/../Riki/venv/Lib/site-packages/flask_login/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1197,24 +1383,56 @@
           </folding>
 =======
     <entry file="file://$PROJECT_DIR$/wiki/core.py">
+=======
+    <entry file="file://$PROJECT_DIR$/wiki/web/routes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="200" column="40" lean-forward="false" selection-start-line="200" selection-start-column="40" selection-end-line="200" selection-end-column="40" />
+        <state relative-caret-position="340">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+    <entry file="file://$PROJECT_DIR$/config.py">
+>>>>>>> refs/remotes/origin/master
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
+    <entry file="file://$PROJECT_DIR$/wiki/web/user.py">
+    <entry file="file://$PROJECT_DIR$/wiki/web/ArchivePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="443">
+          <caret line="40" column="84" lean-forward="false" selection-start-line="40" selection-start-column="84" selection-end-line="40" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1523649421211" expanded="true" signature="537:610" ph="Select page_... page" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
 >>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wiki/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="302" column="0" lean-forward="false" selection-start-line="302" selection-start-column="0" selection-end-line="302" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/content/home.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wiki/web/ArchivePage.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="256">
           <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
@@ -1256,7 +1474,37 @@
             <marker date="1523409374180" expanded="true" signature="1243:1316" ph="INSERT INTO wiki.page... " />
             <marker date="1523409374180" expanded="true" signature="1243:1411" ph="INSERT INTO wiki.page... " />
 >>>>>>> refs/remotes/origin/master
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1523668302355" expanded="true" signature="711:742" ph="Select file_... pages" />
+            <marker date="1523668302355" expanded="true" signature="711:760" ph="Select page_... page" />
+            <marker date="1523668302355" expanded="true" signature="711:762" ph="Select page_... page" />
+            <marker date="1523668302355" expanded="true" signature="711:784" ph="Select page_... page" />
+    <entry file="file://$PROJECT_DIR$/wiki/web/RestorePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1523651544092" expanded="true" signature="589:637" ph="SELECT page_... page" />
+            <marker date="1523651544092" expanded="true" signature="589:638" ph="SELECT page_... page" />
+            <marker date="1523651544092" expanded="true" signature="589:666" ph="SELECT page_... page" />
+            <marker date="1523651544092" expanded="true" signature="589:676" ph="SELECT page_... page" />
+            <marker date="1523651544092" expanded="true" signature="589:1027" ph="SELECT page_... page" />
+            <marker date="1523651544092" expanded="true" signature="1178:1235" ph="SELECT page_... page" />
+>>>>>>> refs/remotes/origin/master
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki/web/ArchiveDatabaseConnection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
