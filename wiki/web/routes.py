@@ -2,7 +2,9 @@
     Routes
     ~~~~~~
 """
-from flask import Blueprint
+import os
+
+from flask import Blueprint, current_app
 from flask import flash
 from flask import redirect
 from flask import render_template
@@ -33,6 +35,16 @@ def home():
         return display('home')
     return render_template('home.html')
 
+
+@bp.route('/history/', methods=['GET','POST'])
+@protect
+def history():
+    results = current_wiki.searchHistory()
+    if request.method == 'POST':
+         print request.form['opt']
+         pg = os.path.join(current_app.config.get('CONTENT_DIR'), request.form['opt'].split(",",1)[0])
+         print pg
+    return render_template('history.html', results=results)
 
 @bp.route('/index/')
 @protect

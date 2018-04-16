@@ -8,5 +8,5 @@ content/
 .eggs
 *.egg-info
 dist/
+config.py
 .idea/workspace.xml
-
