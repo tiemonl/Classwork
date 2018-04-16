@@ -2,7 +2,9 @@
     Routes
     ~~~~~~
 """
-from flask import Blueprint
+import os
+
+from flask import Blueprint, current_app
 from flask import flash
 from flask import redirect
 from flask import render_template
@@ -39,7 +41,9 @@ def home():
 def history():
     results = current_wiki.searchHistory()
     if request.method == 'POST':
-         print request.form['opt'] #return is page name and version number, separated by a comma
+         print request.form['opt']
+         pg = os.path.join(current_app.config.get('CONTENT_DIR'), request.form['opt'].split(",",1)[0])
+         print pg
     return render_template('history.html', results=results)
 
 @bp.route('/index/')
@@ -129,7 +133,6 @@ def tag(name):
 @protect
 def search():
     form = SearchForm()
-    print("now here")
     if form.validate_on_submit():
         results = current_wiki.search(form.term.data, form.ignore_case.data)
         return render_template('search.html', form=form,

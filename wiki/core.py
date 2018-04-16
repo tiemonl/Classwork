@@ -397,3 +397,4 @@ class Wiki(object):
             page_dict[pg[1]].append(pg[0])
 
         return page_dict
+
