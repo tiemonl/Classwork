@@ -9,4 +9,4 @@ content/
 *.egg-info
 dist/
 config.py
-.idea
+.idea/workspace.xml
