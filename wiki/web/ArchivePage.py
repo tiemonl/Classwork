@@ -44,4 +44,4 @@ Test Code
 # arc.cursor.execute("(SELECT user_last_update from wiki.page)")
 # rows = arc.cursor.fetchall()
 # for row in rows:
-#      print " " + row[0].__str__() #+ " " + row[1].__str__() + " " + row[2].__str__()
+#     print " " + row[0].__str__() #+ " " + row[1].__str__() + " " + row[2].__str__()
