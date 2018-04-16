@@ -4,8 +4,17 @@ from flask import session
 
 from wiki.web.ArchiveDatabaseConnection import ArchiveDatabaseConnection
 
+'''
+Dev: Ryan Guard (Guardr2)
 
+Takes the contents of a markdown file and storing it in the database.
+Inserts the page as a version to possibly be restored to.
+'''
 class ArchivePage:
+    '''
+    Reads the contents of a given markdown file at the url (local file path to markdown). Parses file information
+    as well as the currently logged in user from the session for storage.
+    '''
     def __init__(self, name, url):
         self.fileName = name + ".md"
         self.path = url
@@ -21,6 +30,13 @@ class ArchivePage:
             print "no valid session"
             self.user_id = None
 
+
+    '''
+    Checks to see if the page (markdown file) has already been stored. if so it inserts it with a matching page_id, name
+    and incremented commit_id with the current contents of page and user information.
+    If the page is new, it is stored with a fresh page_id, and its information with the commit_id starting at 1 for english
+    enumeration.
+    '''
     def store(self):
         self.cursor.execute("Select page_name from wiki.page where page_name = '" + self.fileName + "'")
         if len(self.cursor.fetchall()) > 0:
@@ -36,12 +52,3 @@ class ArchivePage:
                                 "VALUES((SELECT COUNT(DISTINCT page_id) + 1 from wiki.page), '" + self.fileName + "',1, CURRENT_DATE,'"
                                 + self.contents + "','" + self.user_id + "')")
             self.cursor.execute("COMMIT")
-
-'''
-Test Code
-'''
-# arc = ArchivePage("home", "/Users/Ryan Guard/Desktop/CSC440WikiWiki/content/home.md")
-# arc.cursor.execute("(SELECT user_last_update from wiki.page)")
-# rows = arc.cursor.fetchall()
-# for row in rows:
-#     print " " + row[0].__str__() #+ " " + row[1].__str__() + " " + row[2].__str__()

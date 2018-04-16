@@ -1,5 +1,6 @@
 # Stage B Meeting Agendas
 
+* Team: WikiWiki
 * Members: Ryan Guard, Elizabeth Gieske, Ronnie Hoover, Liam Tiemon, Christopher Groppe 
 * Date: 04/19/2018
 

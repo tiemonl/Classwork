@@ -78,6 +78,11 @@ We collected 11 SE rules in stage.
 * System is tested end to end guarenteeing the quality of the feature.
 * Database is hosted in the cloud allowing for it to be remotely accessed by the web service be it local host or on a server somewhere.
 * Documentation has been created explaining the buisness reasons and intricacies of each module
-
+* Elizabeth Gieske created the UI for the restoration feature using Flask, Jinja2, and python
+* Ryan Guard created the Archive feature, implemented it so that it stored on creation or edit of a page, and developed queries for data storage, retrieval for UI, and overall KT in how to use the psycopg2 library to interface with the database.
+* Liam Tiemon created the retrieval feature, worked with Elizabeth to implement it with the UI.
+* Christopher Groppe created postgresql database on AWS using a linux box to allow for the database to be better accessed and hosted on a robust server that we wouldn't have to worry about going down.
+* Ronnie Hoover created a test suite to ensure the quality of our code.
+* Ronnie Hoover created a test suite to ensure the quality of our code.
 
 
