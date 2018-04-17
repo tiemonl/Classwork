@@ -1,8 +1,6 @@
 from io import open
-from flask import session
 
-
-from wiki.web.ArchiveDatabaseConnection import ArchiveDatabaseConnection
+from markdownArchiveStandalone.ArchiveDatabaseConnection import ArchiveDatabaseConnection
 
 '''
 Dev: Ryan Guard (Guardr2)
@@ -15,20 +13,16 @@ class ArchivePage:
     Reads the contents of a given markdown file at the url (local file path to markdown). Parses file information
     as well as the currently logged in user from the session for storage.
     '''
-    def __init__(self, name, path):
+    def __init__(self, name, url):
         self.fileName = name
-        self.path = path
+        self.path = url
         self.file = open(self.path, "r")
         self.contents = ""
         for line in self.file.readlines():
             self.contents +=  line.__str__()
         self.contentBytes = str.encode(self.contents)
         self.cursor = ArchiveDatabaseConnection().conn.cursor()
-        try:
-            self.user_id = session.get('user_id')
-        except:
-            print "no valid session"
-            self.user_id = "None"
+        self.user_id = "StandaloneConsoleApp"
 
 
     '''
@@ -44,7 +38,7 @@ class ArchivePage:
                                 " VALUES((SELECT DISTINCT page_id from wiki.page where page_name = '" + self.fileName + "'),"
                                 " '" + self.fileName + "', (SELECT (count(commit_id) + 1) from wiki.page "
                                 "where page_name = '" + self.fileName + "') "
-                                ", CURRENT_DATE,  '" + self.contents + "','" + self.user_id + "')")
+                                ", current_date,  '" + self.contents + "','" + self.user_id + "')")
             self.cursor.execute("COMMIT")
 
         else:
@@ -52,4 +46,3 @@ class ArchivePage:
                                 "VALUES((SELECT COUNT(DISTINCT page_id) + 1 from wiki.page), '" + self.fileName + "',1, CURRENT_DATE,'"
                                 + self.contents + "','" + self.user_id + "')")
             self.cursor.execute("COMMIT")
-
