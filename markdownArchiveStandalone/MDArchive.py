@@ -1,7 +1,7 @@
 import argparse
 
 from markdownArchiveStandalone.ArchivePage import ArchivePage
-from markdownArchiveStandalone.DisplayHistory import displayHistoryConsole
+from markdownArchiveStandalone.DisplayHistory import displayHistoryConsole, displayHistoryContents
 from markdownArchiveStandalone.RestorePage import RestorePage
 
 '''
@@ -21,9 +21,9 @@ parser = argparse.ArgumentParser(description='YOU RUN MDArchiveSetup.py FIRST TO
 parser.add_argument('--store', help='Specifies to store the given file', action='store_true')
 parser.add_argument('name',metavar='name', type=str, help='Name of File to archive/retrieve')
 parser.add_argument('path',metavar='path', nargs="?", type=str, help='Complete file path to file')
-parser.add_argument('commit_id',metavar='commit_id', nargs="?", type=int, help='Commit ID of a previous version only use with --retrieve')
-parser.add_argument('--restore', help='Flags for command to Retrieves previous version', action='store_true')
-parser.add_argument('--show', help='Flags for command to show previous versions of specified file name', action='store_true')
+parser.add_argument('--restore', type=int, help='stores the commit number and acts as a flag to restore to that commit must use name and path positional with this optional')
+parser.add_argument('--show', help='Flags for command to show previous versions of specified file name currently stored in the database', action='store_true')
+parser.add_argument('--showContent', type=int, help='stores the commit number and acts as a flag to show that commit')
 
 args = parser.parse_args()
 if args.store:
@@ -36,19 +36,23 @@ if args.store:
     else:
         print "Store requires a name, and path to execute"
 elif args.restore:
-    if args.commit_id:
+    if args.path:
         try:
-            RestorePage(args.name,args.path).restore(args.commit_id)
+            RestorePage(args.name,args.path).restore(args.restore)
             print "restored"
         except:
             print "Error: Failed to restore please check your inputs"
     else:
         print "Restore requires a name, path, and commit_id to execute"
 elif args.show:
-    #try:
+    try:
         displayHistoryConsole(args.name)
-    #except:
-    #   print "Error: Failed to restore please check your file name given"
+    except:
+       print "Error: Failed to restore please check your file name given"
+elif args.showContent:
+    try:
+        displayHistoryContents(args.name,args.showContent)
+    except:
+        print "Error: Failed to showContent please check your inputs"
 else:
-    print "please supply a --store or a --retrieve"
-
+    print "please supply -h, --store, --retrieve, --show, or --showContent in your command"
