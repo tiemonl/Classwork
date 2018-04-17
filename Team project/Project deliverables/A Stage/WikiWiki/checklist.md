@@ -3,15 +3,15 @@ Please check (X) with explanations why you don't/can't.
 
 # Plans and retrospect
 
-1. ( ) Schedule (file or screen capture)
-2. ( ) Meeting agenda files
-3. ( ) Rules collection file
-4. ( ) Retrospect meeting file
+1. (O) Schedule (file or screen capture)
+2. (O) Meeting agenda files
+3. (O) Rules collection file
+4. (O) Retrospect meeting file
 
 # Results
 
-1. ( ) Member1 (     ) implemented a feature and made required documents.
-2. ( ) Member2 (     ) implemented a feature and made required documents.
-3. ( ) Member3 (     ) implemented a feature and made required documents.
-4. ( ) Member4 (     ) implemented a feature and made required documents.
-5. ( ) Member5 (     ) implemented a feature and made required documents.
+1. (O) Member1 (Ryan Guard) implemented a feature and made required documents.
+2. (O) Member2 (Elizabeth Gieske) implemented a feature and made required documents.
+3. (O) Member3 (Liam Tiemon) implemented a feature and made required documents.
+4. (O) Member4 (Christopher Groppe) implemented a feature and made required documents.
+5. (O) Member5 (Ronnie Hoover) implemented a feature and made required documents.
