@@ -24,11 +24,12 @@
                       <div class="card-body" style="padding-left:30px;">
                       <form  method="POST">
                        {% for val in results[key] %}
-                           <p><input type="radio" name="opt" id="{{ key }},{{ val }}" value="{{ key }},{{ val }}"> {{ val }} </input></p>
+                           <p><input type="radio" name="opt" id="{{ key }},{{ val.commit }}" value="{{ key }},{{ val.commit }}" checked="checked">&nbsp;{{ val.commit }}&nbsp;&nbsp;&nbsp;{{ val.timestamp }}&nbsp;&nbsp;&nbsp;{{ val.user }}</p>
                        {%  endfor %}
                           <input type="submit" class="btn btn-success pull-right" value="Go!">
-                       </form>
-                      </div>
+
+                      </form>
+                    </div>
                     </div>
 
                   </div>

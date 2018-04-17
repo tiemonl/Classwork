@@ -2,7 +2,6 @@ venv
 .venv
 *.pyc
 *.sublime-*
-content/
 .DS_Store
 .cache
 .eggs
