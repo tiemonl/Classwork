@@ -1,6 +1,4 @@
 from io import open
-from flask import session
-
 
 from markdownArchiveStandalone.ArchiveDatabaseConnection import ArchiveDatabaseConnection
 
@@ -24,11 +22,7 @@ class ArchivePage:
             self.contents +=  line.__str__()
         self.contentBytes = str.encode(self.contents)
         self.cursor = ArchiveDatabaseConnection().conn.cursor()
-        try:
-            self.user_id = session.get('user_id')
-        except:
-            print "no valid session"
-            self.user_id = "None"
+        self.user_id = "StandaloneConsoleApp"
 
 
     '''

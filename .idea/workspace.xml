@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02e199c0-22bc-4d50-971a-2fa0da43d2e8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/markdownArchiveStandalone/DBCredentials.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/markdownArchiveStandalone/DisplayHistory.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/markdownArchiveStandalone/MDArchiveSetup.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Team project/Project deliverables/B Stage/WikiWikiStageB/~$stage rubrics.docx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/home.md" afterPath="$PROJECT_DIR$/content/home.md" />
       <change beforePath="$PROJECT_DIR$/markdownArchiveStandalone/ArchiveDatabaseConnection.py" afterPath="$PROJECT_DIR$/markdownArchiveStandalone/ArchiveDatabaseConnection.py" />
       <change beforePath="$PROJECT_DIR$/markdownArchiveStandalone/ArchivePage.py" afterPath="$PROJECT_DIR$/markdownArchiveStandalone/ArchivePage.py" />
+      <change beforePath="$PROJECT_DIR$/markdownArchiveStandalone/DisplayHistory.py" afterPath="$PROJECT_DIR$/markdownArchiveStandalone/DisplayHistory.py" />
       <change beforePath="$PROJECT_DIR$/markdownArchiveStandalone/MDArchive.py" afterPath="$PROJECT_DIR$/markdownArchiveStandalone/MDArchive.py" />
+      <change beforePath="$PROJECT_DIR$/markdownArchiveStandalone/MDArchiveSetup.py" afterPath="$PROJECT_DIR$/markdownArchiveStandalone/MDArchiveSetup.py" />
       <change beforePath="$PROJECT_DIR$/markdownArchiveStandalone/RestorePage.py" afterPath="$PROJECT_DIR$/markdownArchiveStandalone/RestorePage.py" />
-      <change beforePath="$PROJECT_DIR$/wiki/core.py" afterPath="$PROJECT_DIR$/wiki/core.py" />
-      <change beforePath="$PROJECT_DIR$/wiki/web/ArchivePage.py" afterPath="$PROJECT_DIR$/wiki/web/ArchivePage.py" />
-      <change beforePath="$PROJECT_DIR$/wiki/web/RestorePage.py" afterPath="$PROJECT_DIR$/wiki/web/RestorePage.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +20,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CSC440WikiWiki$Unnamed__1_.coverage" NAME="Unnamed (1) Coverage Results" MODIFIED="1523985637403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/markdownArchiveStandalone" />
-    <SUITE FILE_PATH="coverage/CSC440WikiWiki$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1523995827338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/markdownArchiveStandalone" />
+    <SUITE FILE_PATH="coverage/CSC440WikiWiki$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1523998386822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/markdownArchiveStandalone" />
     <SUITE FILE_PATH="coverage/CSC440WikiWiki$website.coverage" NAME="website Coverage Results" MODIFIED="1523995851046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -34,23 +28,10 @@
       <file leaf-file-name="MDArchive.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/MDArchive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArchivePage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki/web/ArchivePage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <marker date="1523995827138" expanded="true" signature="1438:1511" ph="Select page_... page" />
               </folding>
             </state>
           </provider>
@@ -66,8 +47,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki/web/forms.py">
+      <file leaf-file-name="DisplayHistory.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/DisplayHistory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="43" column="61" lean-forward="false" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+              <folding>
+                <marker date="1523998489334" expanded="true" signature="756:816" ph="Select DISTI... page" />
+                <marker date="1523998489334" expanded="true" signature="874:971" ph="Select commi... page" />
+                <marker date="1523998489334" expanded="true" signature="1568:1569" ph="Select page_... page" />
+                <marker date="1523998489334" expanded="true" signature="1568:1617" ph="SELECT page_... page" />
+                <marker date="1523998489334" expanded="true" signature="1568:1646" ph="SELECT page_... page" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBCredentials.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/DBCredentials.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -76,38 +73,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArchivePage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/ArchivePage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <marker date="1523995643161" expanded="true" signature="1453:1526" ph="Select page_... page" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MDArchiveSetup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/MDArchiveSetup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            <state relative-caret-position="323">
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DisplayHistory.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/DisplayHistory.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="105" lean-forward="false" selection-start-line="27" selection-start-column="105" selection-end-line="27" selection-end-column="105" />
-              <folding>
-                <marker date="1523995746572" expanded="true" signature="422:482" ph="Select DISTI... page" />
-                <marker date="1523995746572" expanded="true" signature="540:637" ph="Select commi... page" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -115,8 +86,8 @@
       <file leaf-file-name="RestorePage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wiki/web/RestorePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="204">
+              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="131" />
               <folding>
                 <marker date="1523995827060" expanded="true" signature="866:948" ph="SELECT page_... page" />
               </folding>
@@ -124,15 +95,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wiki/core.py">
+      <file leaf-file-name="ArchivePage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/ArchivePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="194" column="26" lean-forward="true" selection-start-line="194" selection-start-column="26" selection-end-line="194" selection-end-column="26" />
+            <state relative-caret-position="485">
+              <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
               <folding>
-                <marker date="1523995826912" expanded="true" signature="11474:11534" ph="Select DISTI... page" />
-                <marker date="1523995826912" expanded="true" signature="11600:11697" ph="Select commi... page" />
+                <element signature="e#0#19#0" expanded="true" />
+                <marker date="1523998424531" expanded="true" signature="1322:1395" ph="Select page_... page" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArchiveDatabaseConnection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/ArchiveDatabaseConnection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,11 +121,24 @@
       <file leaf-file-name="RestorePage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/RestorePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="417">
+              <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <marker date="1523995642920" expanded="true" signature="900:982" ph="SELECT page_... page" />
+                <marker date="1523996918514" expanded="true" signature="900:982" ph="SELECT page_... page" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wiki/core.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="188" column="38" lean-forward="true" selection-start-line="188" selection-start-column="38" selection-end-line="188" selection-end-column="38" />
+              <folding>
+                <marker date="1523995826912" expanded="true" signature="11474:11534" ph="Select DISTI... page" />
+                <marker date="1523995826912" expanded="true" signature="11600:11697" ph="Select commi... page" />
               </folding>
             </state>
           </provider>
@@ -162,6 +156,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>print</find>
+      <find>save</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,16 +169,16 @@
         <option value="$PROJECT_DIR$/Team project/Project deliverables/B Stage/WikiWikiStageB/Plans and retrospect/Rules-collection.md" />
         <option value="$PROJECT_DIR$/Team project/Project deliverables/B Stage/WikiWikiStageB/B-stage-deliverables.md" />
         <option value="$PROJECT_DIR$/markdownArchiveStandalone/MDRestore.py" />
-        <option value="$PROJECT_DIR$/markdownArchiveStandalone/ArchiveDatabaseConnection.py" />
-        <option value="$PROJECT_DIR$/markdownArchiveStandalone/MDArchiveSetup.py" />
         <option value="$PROJECT_DIR$/markdownArchiveStandalone/DisplayArchive.py" />
-        <option value="$PROJECT_DIR$/markdownArchiveStandalone/RestorePage.py" />
-        <option value="$PROJECT_DIR$/markdownArchiveStandalone/ArchivePage.py" />
-        <option value="$PROJECT_DIR$/markdownArchiveStandalone/MDArchive.py" />
-        <option value="$PROJECT_DIR$/markdownArchiveStandalone/DisplayHistory.py" />
         <option value="$PROJECT_DIR$/wiki/web/ArchivePage.py" />
         <option value="$PROJECT_DIR$/wiki/web/RestorePage.py" />
         <option value="$PROJECT_DIR$/wiki/core.py" />
+        <option value="$PROJECT_DIR$/markdownArchiveStandalone/ArchiveDatabaseConnection.py" />
+        <option value="$PROJECT_DIR$/markdownArchiveStandalone/MDArchiveSetup.py" />
+        <option value="$PROJECT_DIR$/markdownArchiveStandalone/RestorePage.py" />
+        <option value="$PROJECT_DIR$/markdownArchiveStandalone/MDArchive.py" />
+        <option value="$PROJECT_DIR$/markdownArchiveStandalone/ArchivePage.py" />
+        <option value="$PROJECT_DIR$/markdownArchiveStandalone/DisplayHistory.py" />
       </list>
     </option>
   </component>
@@ -300,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.website">
+  <component name="RunManager" selected="Python.Unnamed">
     <configuration name="Unnamed (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -334,7 +329,7 @@
       <module name="CSC440WikiWiki" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/markdownArchiveStandalone/MDArchive.py" />
-      <option name="PARAMETERS" value="--show home.md" />
+      <option name="PARAMETERS" value="home.md $PROJECT_DIR$/content/home.md --store" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
@@ -503,7 +498,7 @@
           <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <marker date="1523995643161" expanded="true" signature="1453:1526" ph="Select page_... page" />
+            <marker date="1523998424531" expanded="true" signature="1322:1395" ph="Select page_... page" />
           </folding>
         </state>
       </provider>
@@ -522,7 +517,7 @@
           <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <marker date="1523995642920" expanded="true" signature="900:982" ph="SELECT page_... page" />
+            <marker date="1523996918514" expanded="true" signature="900:982" ph="SELECT page_... page" />
           </folding>
         </state>
       </provider>
@@ -611,7 +606,7 @@
           <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <marker date="1523995643161" expanded="true" signature="1453:1526" ph="Select page_... page" />
+            <marker date="1523998424531" expanded="true" signature="1322:1395" ph="Select page_... page" />
           </folding>
         </state>
       </provider>
@@ -630,7 +625,7 @@
           <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <marker date="1523995642920" expanded="true" signature="900:982" ph="SELECT page_... page" />
+            <marker date="1523996918514" expanded="true" signature="900:982" ph="SELECT page_... page" />
           </folding>
         </state>
       </provider>
@@ -798,73 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/DBCredentials.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/ArchiveDatabaseConnection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/MDArchiveSetup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/RestorePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1523995642920" expanded="true" signature="900:982" ph="SELECT page_... page" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/ArchivePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1523995643161" expanded="true" signature="1453:1526" ph="Select page_... page" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/MDArchive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/DisplayHistory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="105" lean-forward="false" selection-start-line="27" selection-start-column="105" selection-end-line="27" selection-end-column="105" />
-          <folding>
-            <marker date="1523995746572" expanded="true" signature="422:482" ph="Select DISTI... page" />
-            <marker date="1523995746572" expanded="true" signature="540:637" ph="Select commi... page" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wiki/web/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -892,23 +820,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wiki/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="188" column="38" lean-forward="true" selection-start-line="188" selection-start-column="38" selection-end-line="188" selection-end-column="38" />
+          <folding>
+            <marker date="1523995826912" expanded="true" signature="11474:11534" ph="Select DISTI... page" />
+            <marker date="1523995826912" expanded="true" signature="11600:11697" ph="Select commi... page" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wiki/web/RestorePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="204">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="131" />
           <folding>
             <marker date="1523995827060" expanded="true" signature="866:948" ph="SELECT page_... page" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wiki/core.py">
+    <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/MDArchive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="194" column="26" lean-forward="true" selection-start-line="194" selection-start-column="26" selection-end-line="194" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523995826912" expanded="true" signature="11474:11534" ph="Select DISTI... page" />
-            <marker date="1523995826912" expanded="true" signature="11600:11697" ph="Select commi... page" />
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/ArchiveDatabaseConnection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/ArchivePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1523998424531" expanded="true" signature="1322:1395" ph="Select page_... page" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/RestorePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1523996918514" expanded="true" signature="900:982" ph="SELECT page_... page" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/MDArchiveSetup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/DBCredentials.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdownArchiveStandalone/DisplayHistory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="43" column="61" lean-forward="false" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+          <folding>
+            <marker date="1523998489334" expanded="true" signature="756:816" ph="Select DISTI... page" />
+            <marker date="1523998489334" expanded="true" signature="874:971" ph="Select commi... page" />
+            <marker date="1523998489334" expanded="true" signature="1568:1569" ph="Select page_... page" />
+            <marker date="1523998489334" expanded="true" signature="1568:1617" ph="SELECT page_... page" />
+            <marker date="1523998489334" expanded="true" signature="1568:1646" ph="SELECT page_... page" />
           </folding>
         </state>
       </provider>

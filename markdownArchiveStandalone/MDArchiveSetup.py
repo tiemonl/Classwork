@@ -17,8 +17,6 @@ parser.add_argument('user',metavar='user', type=str, help='Name of user connecti
 parser.add_argument('password',metavar='password', type=str, help='Name of password of user connecting database')
 parser.add_argument('host',metavar='host', type=str, help='Host of the database')
 parser.add_argument('port',metavar='port', type=str, help='Port that the database is being run on')
-
-
 args = parser.parse_args()
 with open("DBCredentials.txt", "w") as file:
     file.write(unicode(args.dbname + "\n"))

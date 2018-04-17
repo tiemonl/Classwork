@@ -9,7 +9,6 @@ of reuse throughout the project as necessary.
 Takes database credentials from DBCredentials.txt for establishing connection
 These credentials are established when user runs MDArchiveSetup.py
 '''
-
 class ArchiveDatabaseConnection():
     def __init__(self):
         self.lines = list(open("DBCredentials.txt","r"))
