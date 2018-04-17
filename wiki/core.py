@@ -243,6 +243,15 @@ class Page(object):
         self['tags'] = value
 
 
+class HistoryPage():
+
+    def __init__(self, page_name, page_commit, timestamp, user):
+        self.page_name = page_name
+        self.commit = page_commit
+        self.timestamp = timestamp
+        self.user = user
+
+
 class Wiki(object):
     def __init__(self, root):
         self.root = root
@@ -386,7 +395,7 @@ class Wiki(object):
         cursor = ArchiveDatabaseConnection().conn.cursor()
         cursor.execute("Select DISTINCT(page_name) from wiki.page ORDER BY page_name")
         page_names = cursor.fetchall()
-        cursor.execute("Select commit_id, page_name from wiki.page ORDER BY commit_id DESC")
+        cursor.execute("Select commit_id, page_name, date_update, user_last_update from wiki.page ORDER BY commit_id DESC")
         inner = cursor.fetchall()
 
         page_dict = {}
@@ -394,7 +403,8 @@ class Wiki(object):
             page_dict[pg[0]] = []
 
         for pg in inner:
-            page_dict[pg[1]].append(pg[0])
+            h_pg = HistoryPage(pg[1],pg[0],pg[2],pg[3])
+            page_dict[pg[1]].append(h_pg)
 
         return page_dict
 
