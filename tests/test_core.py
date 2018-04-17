@@ -14,7 +14,7 @@ from . import WikiBaseTestCase
 
 PAGE_CONTENT = u"""\
 title: Test
-tags: one, two, 3, jö
+tags: one, two, 3, jo
 
 Hello, how are you guys?
 
@@ -158,7 +158,7 @@ class ProcessorTestCase(WikiBaseTestCase):
         assert original == PAGE_CONTENT.split(u'\n\n', 1)[1]
         assert meta == {
             'title': u'Test',
-            'tags': u'one, two, 3, jö'
+            'tags': u'one, two, 3, jo'
         }
 
     def test_process_wikilinks(self):
@@ -195,7 +195,7 @@ class PageTestCase(WikiBaseTestCase):
             Assert meta data is interpreted correctly.
         """
         assert self.page.title == u'Test'
-        assert self.page.tags == u'one, two, 3, jö'
+        assert self.page.tags == u'one, two, 3, jo'
 
     def test_page_saving(self):
         """

@@ -1,4 +1,4 @@
-from . import WikiBaseTestCase
+from tests import WikiBaseTestCase
 from wiki.web.user import UserManager
 
 class WebContentTestCase(WikiBaseTestCase):
@@ -21,7 +21,7 @@ Tests below are Unit tests created for stage C to get these tests to run you mus
 This class tests the UserManager Class's functions
 '''
 
-TestFilePath = '/Users/Ryan Guard/PycharmProjects/Riki/tests/'
+TestFilePath = '/Users/Ryan/Riki/tests/'
 
 
 class TestUserManager(WebContentTestCase):

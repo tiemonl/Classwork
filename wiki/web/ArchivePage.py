@@ -21,7 +21,7 @@ class ArchivePage:
         self.file = open(self.path, "r")
         self.contents = ""
         for line in self.file.readlines():
-            self.contents +=  line.__str__()
+            self.contents += line.__str__()
         self.contentBytes = str.encode(self.contents)
         self.cursor = ArchiveDatabaseConnection().conn.cursor()
         try:
