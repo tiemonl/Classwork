@@ -10,7 +10,7 @@ Work on stage B began on March 29th. This was our first meeting for deciding our
 and by April 7th we had designed our feature documentation and clearly established each person's objectives. From there till April 13th we met several times to provide us a place
 to do pair programming which ensured each person was informed in how our implmentations were shaping up and provided us opportunities to further bring clarity to our initial design.
 April 16th onward we finalized our B objectives and began the forming for stage A and uploading the project to PiPy. Meetings had varying attendance but most attended the sessions
-communication just slightly lacked on the end of Ronnie Hoover who missed a decent portion of our implementation meetings, but kept in close communication online instead.
+and those who didn't kept in contact online.
 
 ### Schedule and milestones (ver 1.0)
 
