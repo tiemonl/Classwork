@@ -33,7 +33,7 @@ class RestorePage:
                 str = row[0].__str__()
                 file.write(unicode(str))
         file.close()
-        name = self.fileName[:-3] # removes the extension to avoid extension duplication when passed to ArchivePage
+        name = self.fileName
         arc = ArchivePage(name, self.path)
         arc.store()
 
