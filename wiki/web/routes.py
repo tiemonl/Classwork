@@ -21,6 +21,7 @@ from wiki.web.forms import LoginForm
 from wiki.web.forms import SearchForm
 from wiki.web.forms import URLForm
 from wiki.web import current_wiki
+from wiki.web.RestorePage import RestorePage
 from wiki.web import current_users
 from wiki.web.user import protect
 
@@ -41,9 +42,12 @@ def home():
 def history():
     results = current_wiki.searchHistory()
     if request.method == 'POST':
-         print request.form['opt']
-         pg = os.path.join(current_app.config.get('CONTENT_DIR'), request.form['opt'].split(",",1)[0])
-         print pg
+        pg_url = os.path.join(current_app.config.get('CONTENT_DIR'), request.form['opt'].split(",",1)[0])
+        pg_name = request.form['opt'].split(",",1)[0]
+        pg_commit = request.form['opt'].split(",",1)[1]
+        RestorePage(pg_name, pg_url).restore(pg_commit)
+        return display(pg_name[:-3])
+
     return render_template('history.html', results=results)
 
 @bp.route('/index/')

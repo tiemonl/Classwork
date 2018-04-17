@@ -1,22 +1,17 @@
 from io import open
 
-from wiki.web import ArchivePage
+from wiki.web.ArchivePage import ArchivePage
 from wiki.web.ArchiveDatabaseConnection import ArchiveDatabaseConnection
 
 
 class RestorePage:
     def __init__(self, name, url):
-        self.fileName = name + ".md"
+        self.fileName = name
         self.path = url
-        self.file = open(self.path, "r")
-        self.contents = ""
-        for line in self.file.readlines():
-            self.contents +=  line.__str__()
-        self.contentBytes = str.encode(self.contents)
         self.cursor = ArchiveDatabaseConnection().conn.cursor()
 
-    def restore(self,pageName,commitID):
-        self.cursor.execute("SELECT page_file FROM wiki.page WHERE page_name='"+pageName+"' AND commit_id="+commitID.__str__())
+    def restore(self,commitID):
+        self.cursor.execute("SELECT page_file FROM wiki.page WHERE page_name='"+self.fileName+"' AND commit_id="+commitID.__str__())
         rows = self.cursor.fetchall()
         with open(self.path, "w",encoding='utf-8') as file:
             for row in rows:
