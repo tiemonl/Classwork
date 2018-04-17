@@ -2,7 +2,7 @@ from io import open
 from flask import session
 
 
-from wiki.web.ArchiveDatabaseConnection import ArchiveDatabaseConnection
+from markdownArchiveStandalone.ArchiveDatabaseConnection import ArchiveDatabaseConnection
 
 '''
 Dev: Ryan Guard (Guardr2)
