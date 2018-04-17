@@ -37,14 +37,3 @@ class RestorePage:
         arc = ArchivePage(name, self.path)
         arc.store()
 
-'''
-Test Code
-'''
-# res = RestorePage("home", "/Users/liamtiemon/PycharmProjects/CSC440WikiWiki/content/home.md")
-# res.restore('home.md', 4)
-# res.cursor.execute("SELECT page_file FROM wiki.page WHERE page_file='home.md'")
-# rows = res.cursor.fetchall()
-# for row in rows:
-#     print " " + row[0].__str__()
-
-

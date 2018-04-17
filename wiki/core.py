@@ -198,7 +198,7 @@ class Page(object):
             self.load()
             self.render()
         from wiki.web.ArchivePage import ArchivePage
-        archive = ArchivePage(self.url, self.path)
+        archive = ArchivePage(self.url+ ".md", self.path)
         archive.store()
 
 

@@ -16,7 +16,7 @@ class ArchivePage:
     as well as the currently logged in user from the session for storage.
     '''
     def __init__(self, name, path):
-        self.fileName = name + ".md"
+        self.fileName = name
         self.path = path
         self.file = open(self.path, "r")
         self.contents = ""
@@ -28,7 +28,7 @@ class ArchivePage:
             self.user_id = session.get('user_id')
         except:
             print "no valid session"
-            self.user_id = None
+            self.user_id = "None"
 
 
     '''
