@@ -4,13 +4,13 @@ from markdownArchiveStandalone.ArchivePage import ArchivePage
 from markdownArchiveStandalone.DisplayHistory import displayHistoryConsole, displayHistoryContents
 from markdownArchiveStandalone.RestorePage import RestorePage
 
-'''
+"""
 Dev: Ryan Guard (Guardr2)
 
 Takes user input for either storing markdown files into a database for archiving purposes.
 They either use --store name path or --restore name path commit_id
 
-'''
+"""
 parser = argparse.ArgumentParser(description='YOU RUN MDArchiveSetup.py FIRST TO SETUP DATABASE CREDENTIALS'
                                              'Archive system for storing into a database schema must be of '
                                              'CREATE TABLE wiki.page(\n  page_id integer NOT NULL,\n  page_name text NOT NULL,'

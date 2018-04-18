@@ -1,13 +1,13 @@
 from markdownArchiveStandalone.ArchiveDatabaseConnection import ArchiveDatabaseConnection
-'''
+"""
 Dev: Elizabeth Gieske with adaptations for console input from Ryan Guard (Guardr2)
 
 Takes user inputted page name and displays the history of it that is stored in the database.
-'''
+"""
 
-'''
+"""
 Holds data for displaying history data
-'''
+"""
 class HistoryPage():
 
     def __init__(self, page_name, page_commit, timestamp, user):
@@ -16,9 +16,9 @@ class HistoryPage():
         self.timestamp = timestamp
         self.user = user
 
-'''
+"""
 Displays available commits that have been made with the user that submitted them and its date.
-'''
+"""
 def displayHistoryConsole(page_name):
     cursor = ArchiveDatabaseConnection().conn.cursor()
     cursor.execute("Select DISTINCT(page_name) from wiki.page ORDER BY page_name")
@@ -38,11 +38,11 @@ def displayHistoryConsole(page_name):
         print "Commit#: " + pg.commit.__str__() + " User:" + pg.user.__str__() + " Date: " + pg.timestamp.__str__()
 
 
-'''
+"""
 Dev: Ryan Guard(Guardr2)
 
 Prints out a specified page commit's contents for user to see
-'''
+"""
 def displayHistoryContents(page_name, commit_id):
     cursor = ArchiveDatabaseConnection().conn.cursor()
     cursor.execute("SELECT page_file FROM wiki.page WHERE page_name='"+page_name+"' AND commit_id=" + commit_id.__str__())
