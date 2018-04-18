@@ -1,7 +1,7 @@
 from io import open
 
-from markdownArchiveStandalone.ArchivePage import ArchivePage
-from markdownArchiveStandalone.ArchiveDatabaseConnection import ArchiveDatabaseConnection
+from ArchivePage import ArchivePage
+from ArchiveDatabaseConnection import ArchiveDatabaseConnection
 
 
 
