@@ -1,4 +1,4 @@
-# Feature - Change Listener/Archiving of files.
+# Feature - Archiving of files.
 
 * Programmer: Ryan Guard
 * Date: 04/9/2018
@@ -19,6 +19,8 @@ Archive system takes data and formats it into insert query to insert into the da
 1. As a user, I want to have my markdown files archived into a database so that I can have record of the current change set.
 2. As a user, I want the wiki system to archive the changes I make to a markdown file on creation or edit of a page so that I don't have to keep track of when I make changes myself.
 3. As a user, I want the person who submits a change to be tracked so that I have full record of who is editing documents in the wiki system.
+
+\newpage
 
 # Design
 
@@ -64,6 +66,8 @@ Archive system takes data and formats it into insert query to insert into the da
 
 * We use the parameters of 'dbname', 'user', 'host', 'port', and 'password' to connect to ours which is hard coded in. If different database is desired it will have to be edited.
 
+\newpage
+
 # Implementation
 
 
@@ -73,29 +77,30 @@ The dependencies used in this feature are:
 * 'from io import open' - to pull contents of mark down files for storage.
 * 'from flask import session' - to pull the user_id that is currently being stored in the sessions
 
-## User story 1 & 2 & 3
+## User story 1 and 2 and 3
 
-The Python code for implementation can be found at [https://github.com/tiemonl/CSC440WikiWiki](Team Wiki Wiki GitHub).
+The Python code for implementation can be found at [Team Wiki Wiki GitHub](https://github.com/tiemonl/CSC440WikiWiki).
 
-
-* EVERY THING BELOW HERE IS MERELY TEMPLAT FROM EXAMPLE SUBMISSION THIS SECTION STILL NEEDS TO BE COMPLETED.
+\newpage
 
 # Tests
 
-* This test uses `pypandoc' to generate pdf files from markdown input. 
-* The tests for the added features are included in attached `tests.py`. This test is can be found from [our project repository](...)
-* In this test case, a test file is converted from `.md` to `.pdf` using `pypandoc.convert` command. Then the system checks if the file is correctly converted. If the file is converted, the console will print `"Feature One true"`.
+* This test uses `psycopg2' to interface with the database. 
+* The tests for the added features are included in attached 'test_web.py'. This test is can be found from [Team Wiki Wiki GitHub](https://github.com/tiemonl/CSC440WikiWiki)
+* In this test case, a test file is saved to the database using the 'store' method of 'ArchivePage.py' to store a test markdown file. Then the system checks queries the database to see if the contents match the page and if it is there. If successful the test will pass.
 
 ## Checking the requirements
 
-* User story1 - Test results (test1.pdf and test2.pdf) shows the automatic conversion from markdwon to pdf. 
-* User story2 - Test outputs (test1.pdf and test2.pdf) shows the same format to satisfy the user story 2. 
+* User story1 - Test results (entries of test file in database) shows that the information is properly being stored. 
+* User story2 - UI related so it is extremely hard to test.
+* User story3 - Test results (matching info about user, and other document information exists).
 
 ## Limitations of tests
 
-1. This test checks only if the pdf file is generated. We need to check the output `manually` to verfify that the two generated files have the same format (with 1.5cm margin)
-2. We don't have unit test for this feature as we think this tests.py is enough to check the user stories are satisfied.
+1. As mentioned above the tests fail to cover the UI portion of hitting the save button and it being triggered. We must test this manually
+2. We kept to purely unit tests for this feature as it is mostly back end..
 
 # User documentation
 
-Users can use the API `topdf' with parameters the name of the wiki page to generate the pdf file and show the pdf file on the browser. 
+Storage of markdown files is handled on save during an edit or creation of a page. So users don't have to worry about
+handling when a doucment is stored.
