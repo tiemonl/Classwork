@@ -1,0 +1,113 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: package wiki</title>
+<meta charset="utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>wiki</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/liamtiemon/PycharmProjects/CSC440WikiWiki/wiki/__init__.py">/Users/liamtiemon/PycharmProjects/CSC440WikiWiki/wiki/__init__.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Package Contents</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="wiki.cli.html">cli</a><br>
+</td><td width="25%" valign=top><a href="wiki.core.html">core</a><br>
+</td><td width="25%" valign=top><a href="wiki.web.html"><strong>web</strong>&nbsp;(package)</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="__builtin__.html#object">__builtin__.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="wiki.core.html#Wiki">wiki.core.Wiki</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Wiki">class <strong>Wiki</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Wiki-__init__"><strong>__init__</strong></a>(self, root)</dt></dl>
+
+<dl><dt><a name="Wiki-delete"><strong>delete</strong></a>(self, url)</dt></dl>
+
+<dl><dt><a name="Wiki-exists"><strong>exists</strong></a>(self, url)</dt></dl>
+
+<dl><dt><a name="Wiki-get"><strong>get</strong></a>(self, url)</dt></dl>
+
+<dl><dt><a name="Wiki-get_bare"><strong>get_bare</strong></a>(self, url)</dt></dl>
+
+<dl><dt><a name="Wiki-get_by_title"><strong>get_by_title</strong></a>(self, title)</dt></dl>
+
+<dl><dt><a name="Wiki-get_or_404"><strong>get_or_404</strong></a>(self, url)</dt></dl>
+
+<dl><dt><a name="Wiki-get_tags"><strong>get_tags</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Wiki-index"><strong>index</strong></a>(self)</dt><dd><tt>Builds&nbsp;up&nbsp;a&nbsp;list&nbsp;of&nbsp;all&nbsp;the&nbsp;available&nbsp;pages.<br>
+&nbsp;<br>
+:returns:&nbsp;a&nbsp;list&nbsp;of&nbsp;all&nbsp;the&nbsp;wiki&nbsp;pages<br>
+:rtype:&nbsp;list</tt></dd></dl>
+
+<dl><dt><a name="Wiki-index_by"><strong>index_by</strong></a>(self, key)</dt><dd><tt>Get&nbsp;an&nbsp;index&nbsp;based&nbsp;on&nbsp;the&nbsp;given&nbsp;key.<br>
+&nbsp;<br>
+Will&nbsp;use&nbsp;the&nbsp;metadata&nbsp;value&nbsp;of&nbsp;the&nbsp;given&nbsp;key&nbsp;to&nbsp;group<br>
+the&nbsp;existing&nbsp;pages.<br>
+&nbsp;<br>
+:param&nbsp;str&nbsp;key:&nbsp;the&nbsp;attribute&nbsp;to&nbsp;group&nbsp;the&nbsp;index&nbsp;on.<br>
+&nbsp;<br>
+:returns:&nbsp;Will&nbsp;return&nbsp;a&nbsp;dictionary&nbsp;where&nbsp;each&nbsp;entry&nbsp;holds<br>
+&nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;list&nbsp;of&nbsp;pages&nbsp;that&nbsp;share&nbsp;the&nbsp;given&nbsp;attribute.<br>
+:rtype:&nbsp;dict</tt></dd></dl>
+
+<dl><dt><a name="Wiki-index_by_tag"><strong>index_by_tag</strong></a>(self, tag)</dt></dl>
+
+<dl><dt><a name="Wiki-move"><strong>move</strong></a>(self, url, newurl)</dt></dl>
+
+<dl><dt><a name="Wiki-path"><strong>path</strong></a>(self, url)</dt></dl>
+
+<dl><dt><a name="Wiki-search"><strong>search</strong></a>(self, term, ignore_case<font color="#909090">=True</font>, attrs<font color="#909090">=['title', 'tags', 'body']</font>)</dt></dl>
+
+<dl><dt><a name="Wiki-searchHistory"><strong>searchHistory</strong></a>(self)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-create_app"><strong>create_app</strong></a>(directory)</dt></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>__all__</strong> = ['Wiki', 'create_app']</td></tr></table>
+</body></html>
