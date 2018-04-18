@@ -391,6 +391,11 @@ class Wiki(object):
         return matched
 
     def searchHistory(self):
+        '''
+        dev: Elizabeth Gieske (gieskee1)
+        pull page information from database. Format data into a dictionary
+        :return: dictionary:: key = page name ; value = array of HistoryPages(s)
+        '''
         from wiki.web.ArchiveDatabaseConnection import ArchiveDatabaseConnection
         cursor = ArchiveDatabaseConnection().conn.cursor()
         cursor.execute("Select DISTINCT(page_name) from wiki.page ORDER BY page_name")
