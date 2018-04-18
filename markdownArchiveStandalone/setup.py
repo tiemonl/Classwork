@@ -16,7 +16,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name='MarkdownPostgresArchive',  # Required
 
-    version='0.1.1',  # Required
+    version='0.1.2',  # Required
 
     description='Stores and/or retrieves data of a markdown file in and out of a Postgresql database',  # Required
 

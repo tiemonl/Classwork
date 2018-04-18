@@ -49,7 +49,13 @@ Attendees: Elizabeth Gieske, Ryan Guard, Liam Tiemon, Ronnie Hoover
 	* Integrated modules. Finalized testing and documentation for stage B.
 	* Start working towards completing stage A (hopefully finished).
 	
-* Retrospective: April 16, 2018
+* 8th meeting: April 17, 2018
+    * Completed Stage A requirements
+    * Completed all testing
+    * Finished documentation
+    * Group will do final checks and submissions tomorrow
+	
+* Retrospective: April 18, 2018
     * Everyone Attended 
 	* Final review of Deliverables
 	* Assessment on current sprint.
