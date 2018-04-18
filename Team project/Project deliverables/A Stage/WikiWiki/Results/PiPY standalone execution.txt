@@ -1,0 +1,109 @@
+C:\Users\Ryan Guard\Documents>pip install MarkdownPostgresArchive==0.1.14
+Collecting MarkdownPostgresArchive==0.1.14
+  Downloading https://files.pythonhosted.org/packages/d2/fa/4f1beac5bea54c6b06efd37056b2ba41638bcd524d99496fee39ae219b0f/MarkdownPostgresArchive-0.1.13.tar.gz
+Installing collected packages: MarkdownPostgresArchive
+  Found existing installation: MarkdownPostgresArchive 0.1.12
+    Uninstalling MarkdownPostgresArchive-0.1.12:
+      Successfully uninstalled MarkdownPostgresArchive-0.1.12
+  Running setup.py install for MarkdownPostgresArchive ... done
+Successfully installed MarkdownPostgresArchive-0.1.14
+
+
+
+C:\Users\Ryan Guard\Documents>python -m markdownPostgresArchive.MDArchiveSetup wiki wiki_user jazzhouse123 wiki440.cmaehsb3sum0.us-east-2.rds.amazonaws.com 5432
+
+C:\Users\Ryan Guard\Documents>python -m markdownPostgresArchive.MDArchive -h
+connection success
+usage: MDArchive.py [-h] [--store] [--restore RESTORE] [--show]
+                    [--showContent SHOWCONTENT]
+                    name [path]
+
+YOU RUN MDArchiveSetup.py FIRST TO SETUP DATABASE CREDENTIALSArchive system
+for storing into a database schema must be of CREATE TABLE wiki.page( page_id
+integer NOT NULL, page_name text NOT NULL, commit_id integer NOT NULL,
+date_update date NOT NULL, page_file text NOT NULL, CONSTRAINT page_pkey
+PRIMARY KEY (page_id, commit_id))WITH ( OIDS=FALSE); With database active,
+this can store versions of files or restore to previous versions already
+stored in the database
+
+positional arguments:
+  name                  Name of File to archive/retrieve
+  path                  Complete file path to file
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --store               Specifies to store the given file
+  --restore RESTORE     stores the commit number and acts as a flag to restore
+                        to that commit must use name and path positional with
+                        this optional
+  --show                Flags for command to show previous versions of
+                        specified file name currently stored in the database
+  --showContent SHOWCONTENT
+                        stores the commit number and acts as a flag to show
+                        that commit
+Please use MDArchiveSetup to give database credentials
+
+C:\Users\Ryan Guard\Documents>python -m markdownPostgresArchive.MDArchive --show home.md
+connection success
+connection success
+Commit#: 34 User:StandaloneConsoleApp Date: 2018-04-18
+Commit#: 33 User:StandaloneConsoleApp Date: 2018-04-18
+Commit#: 32 User:StandaloneConsoleApp Date: 2018-04-18
+Commit#: 31 User:StandaloneConsoleApp Date: 2018-04-17
+Commit#: 30 User:StandaloneConsoleApp Date: 2018-04-17
+Commit#: 29 User:StandaloneConsoleApp Date: 2018-04-17
+Commit#: 28 User:name Date: 2018-04-17
+Commit#: 27 User:name Date: 2018-04-17
+Commit#: 26 User:name Date: 2018-04-17
+Commit#: 25 User:None Date: 2018-04-17
+Commit#: 24 User:None Date: 2018-04-17
+Commit#: 23 User:None Date: 2018-04-17
+Commit#: 22 User:None Date: 2018-04-17
+Commit#: 21 User:name Date: 2018-04-17
+Commit#: 20 User:name Date: 2018-04-17
+Commit#: 19 User:name Date: 2018-04-17
+Commit#: 18 User:name Date: 2018-04-17
+Commit#: 17 User:name Date: 2018-04-17
+Commit#: 16 User:name Date: 2018-04-17
+Commit#: 15 User:name Date: 2018-04-17
+Commit#: 14 User:name Date: 2018-04-17
+Commit#: 13 User:name Date: 2018-04-14
+Commit#: 12 User:name Date: 2018-04-14
+Commit#: 11 User:name Date: 2018-04-14
+Commit#: 10 User:None Date: 2018-04-14
+Commit#: 9 User:None Date: 2018-04-13
+Commit#: 8 User:None Date: 2018-04-13
+Commit#: 7 User:None Date: 2018-04-13
+Commit#: 6 User:None Date: 2018-04-13
+Commit#: 5 User:None Date: 2018-04-13
+Commit#: 4 User:None Date: 2018-04-13
+Commit#: 3 User:None Date: 2018-04-11
+Commit#: 2 User:None Date: 2018-04-11
+Commit#: 1 User:None Date: 2018-04-11
+
+C:\Users\Ryan Guard\Documents>python -m markdownPostgresArchive.MDArchive --showContent 30 home.md
+connection success
+connection success
+Name: home.md
+title: home
+tags:
+
+home file first submission.
+Here is edit 1.
+Here is edit 2.
+Here is another edit
+Here is an edit with the username attached
+Here is one last test edit to make sure nothing broke after the merge
+
+C:\Users\Ryan Guard\Documents>python -m markdownPostgresArchive.MDArchive --restore 30 home.md "./home.md"
+connection success
+connection success
+connection success
+restored
+
+C:\Users\Ryan Guard\Documents>python -m markdownPostgresArchive.MDArchive --store home.md "./home.md"
+connection success
+connection success
+Stored the markdown file into database
+
+C:\Users\Ryan Guard\Documents>

@@ -16,7 +16,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name='MarkdownPostgresArchive',  # Required
 
-    version='0.1.13',  # Required
+    version='0.1.14',  # Required
 
     description='Stores and/or retrieves data of a markdown file in and out of a Postgresql database',  # Required
 
@@ -31,6 +31,8 @@ setup(
         'Intended Audience :: Developers',
         'Programming Language :: Python :: 2.7',
     ],
+
+    install_requires=['psycopg2'],
 
     packages=find_packages(),  # Required
 
