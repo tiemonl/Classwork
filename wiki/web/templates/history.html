@@ -1,3 +1,6 @@
+{#dev: Elizabeth Gieske (gieskee1)#}
+{#Template displays previous page commits in an accordion and allows user to select which version to revert back to.#}
+{#Each card is a form.#}
 {% extends "base.html" %}
 {% block title -%}
 	History
@@ -38,7 +41,7 @@
             </div>
 		</ul>
 	{% else %}
-		<p>No results for your search.</p>
+		<p>There are no pages</p>
 	{% endif %}
 
 {% endblock content %}
