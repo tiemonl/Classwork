@@ -1,5 +1,7 @@
 import argparse
 
+import os
+
 """
 Dev: Ryan Guard (Guardr2)
 
@@ -19,7 +21,8 @@ if __name__ == '__main__':
     parser.add_argument('host',metavar='host', type=str, help='Host of the database')
     parser.add_argument('port',metavar='port', type=str, help='Port that the database is being run on')
     args = parser.parse_args()
-    with open("./DBCredentials.txt", "w") as file:
+
+    with open(os.path.dirname(os.path.abspath(__file__)) +"/DBCredentials.txt", "w") as file:
         file.write(unicode(args.dbname + "\n"))
         file.write(unicode(args.user + "\n"))
         file.write(unicode(args.password + "\n"))
