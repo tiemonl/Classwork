@@ -16,10 +16,10 @@ class WebContentTestCase(WikiBaseTestCase):
         assert rsp.status_code == 200
 
 
-'''
+"""
 Tests below are Unit tests created for stage C to get these tests to run you must make the Test File Path accurate.
 This class tests the UserManager Class's functions
-'''
+"""
 
 TestFilePath = '/Users/Ryan/Riki/tests/'
 

@@ -1,11 +1,11 @@
 import psycopg2
 
-'''
+"""
 Dev: Ryan Guard (Guardr2)
 
 Object that is responsible for connecting to our AWS postgresql database. This module was made with the intention
 of reuse throughout the project as necessary.
-'''
+"""
 
 class ArchiveDatabaseConnection():
     def __init__(self):

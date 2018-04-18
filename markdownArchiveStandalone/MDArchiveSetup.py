@@ -1,11 +1,11 @@
 import argparse
 
-'''
+"""
 Dev: Ryan Guard (Guardr2)
 
 Takes user input for database credentials for when the users sets up the required database for pip project
 and stores it into a .txt file for reuse later
-'''
+"""
 parser = argparse.ArgumentParser(description='Setup for credentials of database for archive system.'
                                              'Give the:dbname, user, host, port, password of your database'
                                              'Archive system for storing into a database schema must be of '

@@ -1,6 +1,6 @@
 import psycopg2
 
-'''
+"""
 Dev: Ryan Guard (Guardr2)
 
 Object that is responsible for connecting to our AWS postgresql database. This module was made with the intention
@@ -8,7 +8,7 @@ of reuse throughout the project as necessary.
 
 Takes database credentials from DBCredentials.txt for establishing connection
 These credentials are established when user runs MDArchiveSetup.py
-'''
+"""
 class ArchiveDatabaseConnection():
     def __init__(self):
         self.lines = list(open("DBCredentials.txt","r"))

@@ -1,0 +1,80 @@
+Help on package wiki:
+
+NAME
+    wiki
+
+FILE
+    c:\users\ryan\desktop\csc440wikiwiki\wiki\__init__.py
+
+PACKAGE CONTENTS
+    cli
+    core
+    web (package)
+
+CLASSES
+    __builtin__.object
+        wiki.core.Wiki
+    
+    class Wiki(__builtin__.object)
+     |  Methods defined here:
+     |  
+     |  __init__(self, root)
+     |  
+     |  delete(self, url)
+     |  
+     |  exists(self, url)
+     |  
+     |  get(self, url)
+     |  
+     |  get_bare(self, url)
+     |  
+     |  get_by_title(self, title)
+     |  
+     |  get_or_404(self, url)
+     |  
+     |  get_tags(self)
+     |  
+     |  index(self)
+     |      Builds up a list of all the available pages.
+     |      
+     |      :returns: a list of all the wiki pages
+     |      :rtype: list
+     |  
+     |  index_by(self, key)
+     |      Get an index based on the given key.
+     |      
+     |      Will use the metadata value of the given key to group
+     |      the existing pages.
+     |      
+     |      :param str key: the attribute to group the index on.
+     |      
+     |      :returns: Will return a dictionary where each entry holds
+     |          a list of pages that share the given attribute.
+     |      :rtype: dict
+     |  
+     |  index_by_tag(self, tag)
+     |  
+     |  move(self, url, newurl)
+     |  
+     |  path(self, url)
+     |  
+     |  search(self, term, ignore_case=True, attrs=['title', 'tags', 'body'])
+     |  
+     |  searchHistory(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+
+FUNCTIONS
+    create_app(directory)
+
+DATA
+    __all__ = ['Wiki', 'create_app']
+
+
