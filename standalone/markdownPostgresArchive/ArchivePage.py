@@ -1,6 +1,6 @@
 from io import open
 
-from markdownArchiveStandalone.ArchiveDatabaseConnection import ArchiveDatabaseConnection
+from ArchiveDatabaseConnection import ArchiveDatabaseConnection
 
 """
 Dev: Ryan Guard (Guardr2)

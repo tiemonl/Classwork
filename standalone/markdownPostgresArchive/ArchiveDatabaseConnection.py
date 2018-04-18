@@ -1,3 +1,4 @@
+import os
 import psycopg2
 
 """
@@ -11,7 +12,7 @@ These credentials are established when user runs MDArchiveSetup.py
 """
 class ArchiveDatabaseConnection():
     def __init__(self):
-        self.lines = list(open("DBCredentials.txt","r"))
+        self.lines = list(open(os.path.dirname(os.path.abspath(__file__)) +"/DBCredentials.txt","r"))
         dbname = self.lines[0].strip()
         user = self.lines[1].strip()
         host = self.lines[3].strip()

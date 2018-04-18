@@ -28,6 +28,6 @@ WITH (\
 );
 
 * Download requirements.txt
-* You will have to run the MDArchiveSetup.py command to do initial setup of Database credentials
-* After Setup: Interface with the program using MDArchive.py
+* You will have to run the markdownPostgresArchive.MDArchiveSetup command to do initial setup of Database credentials
+* After Setup: Interface with the program using markdownPostgresArchive.MDArchive
 

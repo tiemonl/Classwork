@@ -1,4 +1,4 @@
-from markdownArchiveStandalone.ArchiveDatabaseConnection import ArchiveDatabaseConnection
+from ArchiveDatabaseConnection import ArchiveDatabaseConnection
 """
 Dev: Elizabeth Gieske with adaptations for console input from Ryan Guard (Guardr2)
 

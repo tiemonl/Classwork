@@ -1,10 +1,10 @@
-Help on package markdownArchiveStandalone:
+Help on package markdownPostgresArchive:
 
 NAME
-    markdownArchiveStandalone
+    markdownPostgresArchive
 
 FILE
-    c:\users\ryan\desktop\csc440wikiwiki\markdownarchivestandalone\__init__.py
+    c:\users\ryan guard\desktop\csc440wikiwiki\standalone\markdownpostgresarchive\__init__.py
 
 PACKAGE CONTENTS
     ArchiveDatabaseConnection
@@ -15,10 +15,10 @@ PACKAGE CONTENTS
     RestorePage
 
 CLASSES
-    markdownArchiveStandalone.ArchiveDatabaseConnection.ArchiveDatabaseConnection
-    markdownArchiveStandalone.ArchivePage.ArchivePage
-    markdownArchiveStandalone.DisplayHistory.HistoryPage
-    markdownArchiveStandalone.RestorePage.RestorePage
+    markdownPostgresArchive.ArchiveDatabaseConnection.ArchiveDatabaseConnection
+    markdownPostgresArchive.ArchivePage.ArchivePage
+    markdownPostgresArchive.DisplayHistory.HistoryPage
+    markdownPostgresArchive.RestorePage.RestorePage
     
     class ArchiveDatabaseConnection
      |  Methods defined here:
