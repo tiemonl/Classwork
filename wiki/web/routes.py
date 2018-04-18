@@ -36,10 +36,13 @@ def home():
         return display('home')
     return render_template('home.html')
 
-
 @bp.route('/history/', methods=['GET','POST'])
 @protect
 def history():
+    '''
+    coordinates history
+    :return: rendered history.html template or redirects to selected page
+    '''
     results = current_wiki.searchHistory()
     if request.method == 'POST':
         pg_url = os.path.join(current_app.config.get('CONTENT_DIR'), request.form['opt'].split(",",1)[0])
