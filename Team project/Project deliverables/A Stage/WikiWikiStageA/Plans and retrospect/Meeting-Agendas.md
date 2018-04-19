@@ -1,4 +1,4 @@
-# Stage B Meeting Agendas
+# Stage A/B Meeting Agendas
 
 * Team: WikiWiki
 * Members: Ryan Guard, Elizabeth Gieske, Ronnie Hoover, Liam Tiemon, Christopher Groppe 
