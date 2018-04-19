@@ -29,6 +29,14 @@ User story 1 - As a developer I would like to ensure that my teams code is prope
 ### Detailed Design
 
 * Tests created are ran alongside prior standing tests.
+* In `test_store` the local file is read and that is compared to the page_file attribute within the database.
+* In `test_restore` the database receives two stores for a entry of the same name, causing it to create a new entry with a new commitID.
+    * The second file is different than the original, so this emulates versions of a page.
+    * The test then reads and stores the content of the first "original" file.
+    * The file is restored to the first commit (optimally the same as the original)  then asserts if the original and restored versions are the same.
+* In `test_restoreDeleted` a file is stored to the database, then attempted to restore to a file that does not exist.
+    * The test asserts that the new file exists.
+* In `test_searchHistory` a dictionary of history pages is created from `searchHistory` and the length is asserted to be the same as the number of distinct pages in the database.
 
 ### Implementation
 
