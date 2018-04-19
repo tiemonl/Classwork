@@ -9,7 +9,7 @@ from wiki.core import wikilink
 from wiki.core import Page
 from wiki.core import Processor
 
-from . import WikiBaseTestCase
+from tests import WikiBaseTestCase
 
 
 PAGE_CONTENT = u"""\
@@ -263,3 +263,14 @@ class WikiTestCase(WikiBaseTestCase):
 
         testpage = pages[1]
         assert testpage.url == 'test'
+
+    def test_searchHistory(self):
+        """
+            Dev: Ronnie Hoover (hooverr3)
+            Assert that the dictionary length is as long as there is distinct pages
+        """
+        hdict = self.wiki.searchHistory()
+        from tests.ArchiveDatabaseConnection import ArchiveDatabaseConnection
+        cursor = ArchiveDatabaseConnection().conn.cursor()
+        cursor.execute("Select DISTINCT(page_name) from wiki.page ORDER BY page_name")
+        self.assertEquals(len(hdict), len(cursor.fetchall()))
