@@ -1,0 +1,59 @@
+package ass02CSC645;
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.ColumnConstraints;
+import javafx.scene.layout.GridPane;
+import javafx.stage.Stage;
+
+public class Calculator extends Application {
+	
+	
+	
+    @Override
+    public void start(Stage stage) {
+        stage.setTitle("Calculator");
+        
+        Button[] btn = new Button[19];
+        String[] btnLabels = {"0", ".", "=", "1", "2", "3", "+", "4", "5", "6", "-", "7", "8", "9", "x", "AC", "+/-","%","/"};
+        
+        for (int i = 0; i < 19; i++) {
+			btn[i] = new Button(btnLabels[i]);
+			btn[i].setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
+		}
+        
+        TextField textField = new TextField();
+        textField.setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
+        
+        GridPane gPane = new GridPane();
+        
+        for (int j = 0; j < 5; ++j) {
+
+        	  ColumnConstraints cc = new ColumnConstraints();
+        	  cc.setPercentWidth(100/5);
+        	  gPane.getColumnConstraints().add(cc);
+        	}
+        
+        gPane.add(textField, 0, 0,4,1);
+        gPane.add(btn[0], 0, 5, 2, 1);
+        gPane.add(btn[1], 2, 5);
+        gPane.add(btn[2], 3, 5);
+        
+        int index = 3;
+        for (int row = 4; row >=1; --row) {
+        	for (int col = 3; col >=0; --col) {
+    			gPane.add(btn[index], col, row);
+    			++index;
+    		}
+		}
+        stage.setScene(new Scene(gPane, 300, 250));
+        stage.show();
+    }
+    
+    public static void main(String[] args) {
+        launch(args);
+    }
+    
+}

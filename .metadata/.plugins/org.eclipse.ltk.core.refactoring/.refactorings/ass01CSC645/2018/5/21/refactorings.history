@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;lbl&apos; in &apos;ass01CSC645.RGBSliders.start(...)&apos; to &apos;lblHexCode&apos;&#x0A;- Original project: &apos;ass01CSC645&apos;&#x0A;- Original element: &apos;ass01CSC645.RGBSliders.start(Stage).lbl&apos;&#x0A;- Renamed element: &apos;lbl&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;lbl&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;ass01CSC645{RGBSliders.java[RGBSliders~start~QStage;@lbl!1081!1104!1087!1089!QLabel;!0!false" name="lblHexCode" references="true" stamp="1526942546313" version="1.0"/>
+</session>

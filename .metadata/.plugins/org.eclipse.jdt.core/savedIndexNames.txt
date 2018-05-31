@@ -1,0 +1,2 @@
+INDEX VERSION 1.130+/Users/liamtiemon/Dropbox/School Shit/Year 3/Su'18/CSC 645/projects/.metadata/.plugins/org.eclipse.jdt.core
+1558870383.index
