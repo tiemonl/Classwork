@@ -5,6 +5,9 @@ import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.geometry.HPos;
+import javafx.geometry.Pos;
+import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
@@ -46,15 +49,15 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws IOException {
         writer = new BufferedWriter(new FileWriter(FILENAME, false));
         canvas = new Canvas(500, 400);
-        mask = new Canvas( canvas.getWidth(), canvas.getHeight());
+        mask = new Canvas(canvas.getWidth(), canvas.getHeight());
         gc = canvas.getGraphicsContext2D();
         maskCircle = mask.getGraphicsContext2D();
         gc.setFill(Color.TRANSPARENT);
         gc.setLineWidth(2);
-        gc.clearRect(0,0,canvas.getWidth(),canvas.getHeight());
+        gc.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
         maskCircle.setFill(Color.TRANSPARENT);
         maskCircle.setLineWidth(2);
-        maskCircle.clearRect(0,0,canvas.getWidth(),canvas.getHeight());
+        maskCircle.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
 
 
         colorPickerLines = new ColorPicker();
@@ -77,26 +80,26 @@ public class Main extends Application {
         stringBuilder.append("startSymbol");
 
         canvas.addEventHandler(MouseEvent.MOUSE_PRESSED,
-                new EventHandler<MouseEvent>(){
+                new EventHandler<MouseEvent>() {
 
                     @Override
                     public void handle(MouseEvent mouse) {
                         gc.beginPath();
-                        stringBuilder.append(String.format("\nPRESSED: (%d, %d)",(int)mouse.getX(),(int)mouse.getY()));
-                        maskCircle.strokeOval(mouse.getX()-radius*2,mouse.getY()-radius*2,radius*4,radius*4);
+                        stringBuilder.append(String.format("\nPRESSED: (%d, %d)", (int) mouse.getX(), (int) mouse.getY()));
+                        maskCircle.strokeOval(mouse.getX() - radius * 2, mouse.getY() - radius * 2, radius * 4, radius * 4);
                         gc.moveTo(mouse.getX(), mouse.getY());
                         gc.stroke();
                     }
                 });
 
         canvas.addEventHandler(MouseEvent.MOUSE_DRAGGED,
-                new EventHandler<MouseEvent>(){
+                new EventHandler<MouseEvent>() {
 
                     @Override
                     public void handle(MouseEvent mouse) {
-                        stringBuilder.append(String.format("\n(%d, %d)",(int)mouse.getX(),(int)mouse.getY()));
-                        if(mouse.getX()%15==0 || mouse.getY()%15 == 0){
-                            maskCircle.strokeOval(mouse.getX()-radius,mouse.getY()-radius,radius*2,radius*2);
+                        stringBuilder.append(String.format("\n(%d, %d)", (int) mouse.getX(), (int) mouse.getY()));
+                        if (mouse.getX() % 15 == 0 || mouse.getY() % 15 == 0) {
+                            maskCircle.strokeOval(mouse.getX() - radius, mouse.getY() - radius, radius * 2, radius * 2);
                         }
                         gc.lineTo(mouse.getX(), mouse.getY());
                         gc.stroke();
@@ -104,37 +107,37 @@ public class Main extends Application {
                 });
 
         canvas.addEventHandler(MouseEvent.MOUSE_RELEASED,
-                new EventHandler<MouseEvent>(){
+                new EventHandler<MouseEvent>() {
 
                     @Override
                     public void handle(MouseEvent mouse) {
-                        stringBuilder.append(String.format("\nRELEASED: (%d, %d)",(int)mouse.getX(),(int)mouse.getY()));
-                        maskCircle.strokeOval(mouse.getX()-radius*2,mouse.getY()-radius*2,radius*4,radius*4);
+                        stringBuilder.append(String.format("\nRELEASED: (%d, %d)", (int) mouse.getX(), (int) mouse.getY()));
+                        maskCircle.strokeOval(mouse.getX() - radius * 2, mouse.getY() - radius * 2, radius * 4, radius * 4);
                     }
                 });
 
 
         mask.addEventHandler(MouseEvent.MOUSE_PRESSED,
-                new EventHandler<MouseEvent>(){
+                new EventHandler<MouseEvent>() {
 
                     @Override
                     public void handle(MouseEvent mouse) {
                         gc.beginPath();
-                        stringBuilder.append(String.format("\nPRESSED: (%d, %d)",(int)mouse.getX(),(int)mouse.getY()));
-                        maskCircle.strokeOval(mouse.getX()-radius*2,mouse.getY()-radius*2,radius*4,radius*4);
+                        stringBuilder.append(String.format("\nPRESSED: (%d, %d)", (int) mouse.getX(), (int) mouse.getY()));
+                        maskCircle.strokeOval(mouse.getX() - radius * 2, mouse.getY() - radius * 2, radius * 4, radius * 4);
                         gc.moveTo(mouse.getX(), mouse.getY());
                         gc.stroke();
                     }
                 });
 
         mask.addEventHandler(MouseEvent.MOUSE_DRAGGED,
-                new EventHandler<MouseEvent>(){
+                new EventHandler<MouseEvent>() {
 
                     @Override
                     public void handle(MouseEvent mouse) {
-                        stringBuilder.append(String.format("\n(%d, %d)",(int)mouse.getX(),(int)mouse.getY()));
-                        if(mouse.getX()%15==0 || mouse.getY()%15 == 0){
-                            maskCircle.strokeOval(mouse.getX()-radius,mouse.getY()-radius,radius*2,radius*2);
+                        stringBuilder.append(String.format("\n(%d, %d)", (int) mouse.getX(), (int) mouse.getY()));
+                        if (mouse.getX() % 15 == 0 || mouse.getY() % 15 == 0) {
+                            maskCircle.strokeOval(mouse.getX() - radius, mouse.getY() - radius, radius * 2, radius * 2);
                         }
                         gc.lineTo(mouse.getX(), mouse.getY());
                         gc.stroke();
@@ -142,12 +145,12 @@ public class Main extends Application {
                 });
 
         mask.addEventHandler(MouseEvent.MOUSE_RELEASED,
-                new EventHandler<MouseEvent>(){
+                new EventHandler<MouseEvent>() {
 
                     @Override
                     public void handle(MouseEvent mouse) {
-                        stringBuilder.append(String.format("\nRELEASED: (%d, %d)",(int)mouse.getX(),(int)mouse.getY()));
-                        maskCircle.strokeOval(mouse.getX()-radius*2,mouse.getY()-radius*2,radius*4,radius*4);
+                        stringBuilder.append(String.format("\nRELEASED: (%d, %d)", (int) mouse.getX(), (int) mouse.getY()));
+                        maskCircle.strokeOval(mouse.getX() - radius * 2, mouse.getY() - radius * 2, radius * 4, radius * 4);
                     }
                 });
 
@@ -160,23 +163,32 @@ public class Main extends Application {
         Button rejectButton = createRejectSampleButton();
         Button quitButton = createQuitButton();
 
-
         GridPane gridPane = new GridPane();
 
-        ColumnConstraints cc = new ColumnConstraints();
-        cc.setPercentWidth(100.0 / 5);
-        gridPane.getColumnConstraints().add(cc);
+        GridPane.setHalignment(quitButton,HPos.CENTER);
+        GridPane.setHalignment(rejectButton,HPos.CENTER);
+        GridPane.setHalignment(acceptButton,HPos.CENTER);
+        GridPane.setHalignment(showLinesCheckBox,HPos.CENTER);
+        GridPane.setHalignment(showPointsCheckBox,HPos.CENTER);
+
+        for (int i = 0; i < 5; ++i) {
+
+            ColumnConstraints cc = new ColumnConstraints();
+            cc.setPercentWidth(100.0 / 5);
+            gridPane.getColumnConstraints().add(cc);
+        }
+
 
         gridPane.getChildren().add(colorPickerLines);
         gridPane.getChildren().add(colorPickerPoints);
-        gridPane.add(menuBar,0,0,5,1);
-        gridPane.add(canvas,0,1,5,1);
-        gridPane.add(mask,0,1,5,1);
-        gridPane.add(showPointsCheckBox,1,2);
-        gridPane.add(showLinesCheckBox,3,2);
+        gridPane.add(menuBar, 0, 0, 5, 1);
+        gridPane.add(canvas, 0, 1, 5, 1);
+        gridPane.add(mask, 0, 1, 5, 1);
+        gridPane.add(showPointsCheckBox, 1, 2);
+        gridPane.add(showLinesCheckBox, 3, 2);
         gridPane.add(acceptButton, 0, 3);
-        gridPane.add(rejectButton, 2,3);
-        gridPane.add(quitButton, 4,3);
+        gridPane.add(rejectButton, 2, 3);
+        gridPane.add(quitButton, 4, 3);
 
         Scene scene = new Scene(gridPane, 500, 500);
         primaryStage.setTitle("Program 03 -- Liam Tiemon");
@@ -190,7 +202,7 @@ public class Main extends Application {
         });
     }
 
-    public MenuBar createMenu(){
+    public MenuBar createMenu() {
         Menu menu = new Menu("Colors");
         MenuItem menuPointColor = new MenuItem("POINT Color");
         MenuItem menuLineColor = new MenuItem("LINE  Color");
@@ -214,8 +226,7 @@ public class Main extends Application {
     }
 
 
-
-    public Button createAcceptSampleButton(){
+    public Button createAcceptSampleButton() {
         Button button = new Button("Accept");
         setButtonSize(button);
         button.setOnAction(new EventHandler<ActionEvent>() {
@@ -234,7 +245,7 @@ public class Main extends Application {
         return button;
     }
 
-    public Button createRejectSampleButton(){
+    public Button createRejectSampleButton() {
         Button button = new Button("Reject");
         setButtonSize(button);
         button.setOnAction(new EventHandler<ActionEvent>() {
@@ -247,9 +258,10 @@ public class Main extends Application {
         return button;
     }
 
-    public Button createQuitButton(){
+    public Button createQuitButton() {
         Button button = new Button("Quit");
         setButtonSize(button);
+        button.setAlignment(Pos.CENTER);
         button.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
@@ -261,14 +273,14 @@ public class Main extends Application {
         return button;
     }
 
-    public CheckBox createShowPointsCheckBox(){
-        CheckBox checkBox = new CheckBox("Show Points");
+    public CheckBox createShowPointsCheckBox() {
+        CheckBox checkBox = new CheckBox("Points");
         checkBox.selectedProperty().addListener(new ChangeListener<Boolean>() {
             @Override
             public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
-                if (newValue){
+                if (newValue) {
                     mask.setVisible(true);
-                } else{
+                } else {
                     mask.setVisible(false);
                 }
             }
@@ -276,14 +288,14 @@ public class Main extends Application {
         return checkBox;
     }
 
-    public CheckBox createShowLinesCheckBox(){
-        CheckBox checkBox = new CheckBox("Show Lines");
+    public CheckBox createShowLinesCheckBox() {
+        CheckBox checkBox = new CheckBox("Lines");
         checkBox.selectedProperty().addListener(new ChangeListener<Boolean>() {
             @Override
             public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
-                if (newValue){
+                if (newValue) {
                     canvas.setVisible(true);
-                } else{
+                } else {
                     canvas.setVisible(false);
                 }
             }
@@ -292,8 +304,8 @@ public class Main extends Application {
     }
 
 
-    public void setButtonSize(Button btn){
-        btn.setMinSize(75,30);
+    public void setButtonSize(Button btn) {
+        btn.setMinSize(75, 30);
     }
 
     private void closeBufferWriter() {
@@ -305,15 +317,15 @@ public class Main extends Application {
         }
     }
 
-    private void closeDrawing(){
+    private void closeDrawing() {
         stringBuilder.setLength(0);
         stringBuilder.append("startSymbol");
         gc.setFill(Color.TRANSPARENT);
         gc.setLineWidth(2);
-        gc.clearRect(0,0,canvas.getWidth(),canvas.getHeight());
+        gc.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
         maskCircle.setFill(Color.LIGHTGRAY);
         maskCircle.setLineWidth(2);
-        maskCircle.clearRect(0,0,canvas.getWidth(),canvas.getHeight());
+        maskCircle.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
     }
 
 }
