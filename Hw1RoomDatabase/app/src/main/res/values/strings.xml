@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Hw1RoomDatabase</string>
     <string name="action_settings">Settings</string>
+    <string name="hint_car">Car...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Car not saved because it is empty.</string>
 </resources>
