@@ -11,20 +11,24 @@ import android.widget.EditText
 class NewCarActivity : AppCompatActivity() {
 
     private lateinit var editCarView: EditText
+    private lateinit var editCarMakeView: EditText
 
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_new_car)
         editCarView = findViewById(R.id.edit_car)
+        editCarMakeView = findViewById(R.id.edit_car_make)
 
         val button = findViewById<Button>(R.id.button_save)
         button.setOnClickListener {
             val replyIntent = Intent()
-            if (TextUtils.isEmpty(editCarView.text)) {
+            if (TextUtils.isEmpty(editCarView.text) || TextUtils.isEmpty(editCarMakeView.text)) {
                 setResult(Activity.RESULT_CANCELED, replyIntent)
             } else {
                 val car = editCarView.text.toString()
-                replyIntent.putExtra(EXTRA_REPLY, car)
+                val make = editCarMakeView.text.toString()
+                replyIntent.putExtra("car", car)
+                replyIntent.putExtra("make", make)
                 setResult(Activity.RESULT_OK, replyIntent)
             }
             finish()

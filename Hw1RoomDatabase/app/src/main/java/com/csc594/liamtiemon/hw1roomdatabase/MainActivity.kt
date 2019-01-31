@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
         if (requestCode == newCarActivityRequestCode && resultCode == Activity.RESULT_OK) {
             data?.let {
-                val car = Car(it.getStringExtra(NewCarActivity.EXTRA_REPLY))
+                val car = Car(it.getStringExtra("car"), it.getStringExtra("make"))
                 carViewModel.insert(car)
             }
         } else {

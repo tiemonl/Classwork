@@ -5,4 +5,4 @@ import android.arch.persistence.room.Entity
 import android.arch.persistence.room.PrimaryKey
 
 @Entity(tableName = "car_table")
-data class Car(@PrimaryKey @ColumnInfo(name = "car") val car: String)
+data class Car(@PrimaryKey @ColumnInfo(name = "car") val car: String, @ColumnInfo(name = "make") val make: String)

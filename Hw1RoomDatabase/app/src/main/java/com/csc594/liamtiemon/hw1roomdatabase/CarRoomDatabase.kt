@@ -10,7 +10,7 @@ import kotlinx.coroutines.experimental.Dispatchers
 import kotlinx.coroutines.experimental.IO
 import kotlinx.coroutines.experimental.launch
 
-@Database(entities = [Car::class], version = 1)
+@Database(entities = [Car::class], version = 2)
 abstract class CarRoomDatabase : RoomDatabase() {
 
     abstract fun carDao(): CarDao
@@ -53,9 +53,9 @@ abstract class CarRoomDatabase : RoomDatabase() {
         fun populateDatabase(carDao: CarDao) {
             carDao.deleteAll()
 
-            var car = Car("Maserati")
+            var car = Car("Maserati", "Giullia")
             carDao.insert(car)
-            car = Car("Ferrari")
+            car = Car("Ferrari", "F50")
             carDao.insert(car)
         }
     }

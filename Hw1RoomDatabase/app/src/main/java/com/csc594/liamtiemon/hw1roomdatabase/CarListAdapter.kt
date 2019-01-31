@@ -25,7 +25,8 @@ class CarListAdapter internal constructor(
 
     override fun onBindViewHolder(holder: CarViewHolder, position: Int) {
         val current = cars[position]
-        holder.carItemView.text = current.car
+        val carString = current.car + " " + current.make
+        holder.carItemView.text = carString
     }
 
     internal fun setCars(cars: List<Car>) {

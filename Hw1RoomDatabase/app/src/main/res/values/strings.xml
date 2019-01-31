@@ -4,4 +4,5 @@
     <string name="hint_car">Car...</string>
     <string name="button_save">Save</string>
     <string name="empty_not_saved">Car not saved because it is empty.</string>
+    <string name="hint_car_make">Make...</string>
 </resources>
