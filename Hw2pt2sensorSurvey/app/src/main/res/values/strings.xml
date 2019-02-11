@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Hw2pt2sensorSurvey</string>
+    <string name="label_sensors">Sensors</string>
+    <string name="placeholder_text">(placeholder)</string>
+
+</resources>
