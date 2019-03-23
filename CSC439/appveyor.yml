@@ -1,0 +1,16 @@
+image: Visual Studio 2017
+
+version: 1.0.{build}
+
+before_build:
+- choco install opencover.portable
+- choco install xunit
+- choco install codecov
+
+build:
+  project: ./sudokuSolver/sudokuSolver.sln
+  verbosity: minimal
+  
+test_script:
+- OpenCover.Console.exe -register:user -target:"%xunit20%\xunit.console.x86.exe" -targetargs:".\sudokuSolver\Test\bin\Debug\Test.dll -noshadow" -filter:"+[sudokuSolver/sudokuSolver*]* -[sudokuSolver/Test*]*" -output:".\MyProjectCoverage.xml"
+- codecov -f "MyProjectCoverage.xml

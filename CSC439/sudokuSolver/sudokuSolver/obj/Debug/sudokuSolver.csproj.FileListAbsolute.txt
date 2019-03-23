@@ -1,0 +1,96 @@
+c:/users/liam/documents/visual studio 2017/Projects/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.exe.config
+c:/users/liam/documents/visual studio 2017/Projects/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.exe
+c:/users/liam/documents/visual studio 2017/Projects/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.pdb
+c:/users/liam/documents/visual studio 2017/Projects/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.csprojResolveAssemblyReference.cache
+c:/users/liam/documents/visual studio 2017/Projects/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.Form1.resources
+c:/users/liam/documents/visual studio 2017/Projects/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.Properties.Resources.resources
+c:/users/liam/documents/visual studio 2017/Projects/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.csproj.GenerateResource.Cache
+c:/users/liam/documents/visual studio 2017/Projects/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.exe
+c:/users/liam/documents/visual studio 2017/Projects/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.pdb
+/Users/carlosguzman/Projects/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.exe.config
+/Users/carlosguzman/Projects/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.exe
+/Users/carlosguzman/Projects/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.pdb
+/Users/carlosguzman/Projects/sudokuSolver/sudokuSolver/bin/Debug/nunit.framework.dll
+/Users/carlosguzman/Projects/sudokuSolver/sudokuSolver/bin/Debug/nunit.framework.xml
+/Users/carlosguzman/Projects/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.csprojResolveAssemblyReference.cache
+/Users/carlosguzman/Projects/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.Form1.resources
+/Users/carlosguzman/Projects/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.Properties.Resources.resources
+/Users/carlosguzman/Projects/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.csproj.GenerateResource.Cache
+/Users/carlosguzman/Projects/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.csproj.CoreCompileInputs.cache
+/Users/carlosguzman/Projects/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.exe
+/Users/carlosguzman/Projects/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.pdb
+C:/Users/michael/Documents/GitHub/sudokuSolver/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.exe.config
+C:/Users/michael/Documents/GitHub/sudokuSolver/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.exe
+C:/Users/michael/Documents/GitHub/sudokuSolver/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.pdb
+C:/Users/michael/Documents/GitHub/sudokuSolver/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.exe
+C:/Users/michael/Documents/GitHub/sudokuSolver/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.pdb
+C:/Users/michael/Documents/GitHub/sudokuSolver/sudokuSolver/sudokuSolver/bin/Debug/nunit.framework.dll
+C:/Users/michael/Documents/GitHub/sudokuSolver/sudokuSolver/sudokuSolver/bin/Debug/nunit.framework.xml
+C:/Users/michael/Documents/GitHub/sudokuSolver/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.csprojResolveAssemblyReference.cache
+C:/Users/michael/Documents/GitHub/sudokuSolver/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.Form1.resources
+C:/Users/michael/Documents/GitHub/sudokuSolver/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.Properties.Resources.resources
+C:/Users/michael/Documents/GitHub/sudokuSolver/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.csproj.GenerateResource.Cache
+C:/Users/michael/Documents/Visual Studio 2015/Projects/School/CSC 439/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.exe.config
+C:/Users/michael/Documents/Visual Studio 2015/Projects/School/CSC 439/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.exe
+C:/Users/michael/Documents/Visual Studio 2015/Projects/School/CSC 439/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.pdb
+C:/Users/michael/Documents/Visual Studio 2015/Projects/School/CSC 439/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.exe
+C:/Users/michael/Documents/Visual Studio 2015/Projects/School/CSC 439/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.pdb
+C:/Users/michael/Documents/Visual Studio 2015/Projects/School/CSC 439/sudokuSolver/sudokuSolver/bin/Debug/nunit.framework.dll
+C:/Users/michael/Documents/Visual Studio 2015/Projects/School/CSC 439/sudokuSolver/sudokuSolver/bin/Debug/nunit.framework.xml
+C:/Users/michael/Documents/Visual Studio 2015/Projects/School/CSC 439/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.csprojResolveAssemblyReference.cache
+C:/Users/michael/Documents/Visual Studio 2015/Projects/School/CSC 439/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.Form1.resources
+C:/Users/michael/Documents/Visual Studio 2015/Projects/School/CSC 439/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.Properties.Resources.resources
+C:/Users/michael/Documents/Visual Studio 2015/Projects/School/CSC 439/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.csproj.GenerateResource.Cache
+C:/Users/tiemonl1/Documents/github/sudoku/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.exe.config
+C:/Users/tiemonl1/Documents/github/sudoku/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.exe
+C:/Users/tiemonl1/Documents/github/sudoku/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.pdb
+C:/Users/tiemonl1/Documents/github/sudoku/sudokuSolver/sudokuSolver/bin/Debug/nunit.framework.dll
+C:/Users/tiemonl1/Documents/github/sudoku/sudokuSolver/sudokuSolver/bin/Debug/nunit.framework.xml
+C:/Users/tiemonl1/Documents/github/sudoku/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.Form1.resources
+C:/Users/tiemonl1/Documents/github/sudoku/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.Properties.Resources.resources
+C:/Users/tiemonl1/Documents/github/sudoku/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.csproj.GenerateResource.Cache
+C:/Users/tiemonl1/Documents/github/sudoku/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.csproj.CoreCompileInputs.cache
+C:/Users/tiemonl1/Documents/github/sudoku/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.exe
+C:/Users/tiemonl1/Documents/github/sudoku/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.pdb
+C:/Users/tiemonl1/Documents/github/sudoku/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.exe.CodeAnalysisLog.xml
+C:/Users/tiemonl1/Documents/github/sudoku/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.exe.lastcodeanalysissucceeded
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.exe.config
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.exe
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/bin/Debug/sudokuSolver.pdb
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/bin/Debug/nunit.framework.dll
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/bin/Debug/xunit.abstractions.dll
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/bin/Debug/xunit.assert.dll
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/bin/Debug/xunit.core.dll
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/bin/Debug/xunit.execution.desktop.dll
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/bin/Debug/nunit.framework.xml
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/bin/Debug/xunit.abstractions.xml
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/bin/Debug/xunit.assert.xml
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/bin/Debug/xunit.core.xml
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/bin/Debug/xunit.execution.desktop.xml
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.csproj.sudokuSolver.exe.config
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.Form1.resources
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.Properties.Resources.resources
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.csproj.GenerateResource.Cache
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.csproj.CoreCompileInputs.cache
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.exe
+/Users/carlosguzman/Documents/GitHub/CSC439-OS-Sudoku2/sudokuSolver/sudokuSolver/obj/Debug/sudokuSolver.pdb
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\bin\Debug\sudokuSolver.exe.config
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\bin\Debug\sudokuSolver.exe
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\bin\Debug\sudokuSolver.pdb
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\bin\Debug\nunit.framework.dll
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\bin\Debug\xunit.abstractions.dll
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\bin\Debug\xunit.assert.dll
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\bin\Debug\xunit.core.dll
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\bin\Debug\xunit.execution.desktop.dll
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\bin\Debug\nunit.framework.xml
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\bin\Debug\xunit.abstractions.xml
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\bin\Debug\xunit.assert.xml
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\bin\Debug\xunit.core.xml
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\bin\Debug\xunit.execution.desktop.xml
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\obj\Debug\sudokuSolver.csprojResolveAssemblyReference.cache
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\obj\Debug\sudokuSolver.Form1.resources
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\obj\Debug\sudokuSolver.Properties.Resources.resources
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\obj\Debug\sudokuSolver.csproj.GenerateResource.Cache
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\obj\Debug\sudokuSolver.csproj.CoreCompileInputs.cache
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\obj\Debug\sudokuSolver.exe
+Z:\Users\Liam\Documents\github\Sudoku\sudokuSolver\sudokuSolver\obj\Debug\sudokuSolver.pdb

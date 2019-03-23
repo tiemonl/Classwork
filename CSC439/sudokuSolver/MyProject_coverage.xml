@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="9E-BB-DC-71-0C-81-E2-DE-0B-D8-B0-BD-CA-43-A4-BD-E9-9A-ED-22">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2017-09-29T13:43:08.1468197Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0A-A0-91-2D-89-E9-6D-48-BA-2A-7B-B0-63-43-0C-0F-98-56-39-D4">
+      <ModulePath>C:\ProgramData\chocolatey\bin\xunit.console.x86.exe</ModulePath>
+      <ModuleTime>2017-11-13T20:53:21.3304268Z</ModuleTime>
+      <ModuleName>xunit.console.x86</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CB-7B-C7-A0-09-0F-BA-F4-8A-02-A9-E9-2A-7B-43-34-93-46-0F-58">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-09-29T13:43:06.7717063Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="57-B0-DD-2B-E4-5E-90-4F-2F-A9-E8-99-EC-EA-93-79-CE-40-55-6E">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-09-29T13:43:08.2093248Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BB-CA-66-B2-E6-52-7F-4D-C0-84-DC-86-30-62-CF-E1-9A-A1-98-7B">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2017-09-29T13:43:17.8663486Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="20-C4-01-9B-E2-1E-9E-E3-3C-4A-52-77-E9-9B-48-5D-83-2E-A9-06">
+      <ModulePath>C:\ProgramData\chocolatey\lib\XUnit\tools\xunit\xunit.console.x86.exe</ModulePath>
+      <ModuleTime>2017-11-13T20:53:20.905794Z</ModuleTime>
+      <ModuleName>xunit.console.x86</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B0-74-B1-8D-51-BC-0F-BE-6F-0A-E9-01-EB-0F-3D-B4-01-89-D9-28">
+      <ModulePath>C:\ProgramData\chocolatey\lib\XUnit\tools\xunit\xunit.runner.utility.desktop.dll</ModulePath>
+      <ModuleTime>2017-11-13T20:53:20.9062945Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.desktop</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CB-7B-C7-A0-09-0F-BA-F4-8A-02-A9-E9-2A-7B-43-34-93-46-0F-58">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-09-29T13:43:06.7717063Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="57-B0-DD-2B-E4-5E-90-4F-2F-A9-E8-99-EC-EA-93-79-CE-40-55-6E">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-09-29T13:43:08.2093248Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>

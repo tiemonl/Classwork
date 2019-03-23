@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{B9928742-3756-46F0-91D2-14AAF82452BA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="sudokuSolver/Form1.cs">
+    <Files>
+      <File FileName="Test/Test.cs" Line="25" Column="13" />
+      <File FileName="sudokuSolver/Sudoku.cs" Line="1" Column="1" />
+      <File FileName="sudokuSolver/Form1.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="sudokuSolver" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.sudokuSolver PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
