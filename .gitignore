@@ -1,0 +1,11 @@
+venv
+.venv
+*.pyc
+*.sublime-*
+.DS_Store
+.cache
+.eggs
+*.egg-info
+dist/
+config.py
+.idea/workspace.xml
